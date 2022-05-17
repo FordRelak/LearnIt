@@ -1,0 +1,32 @@
+﻿@page "/"
+
+<div class="mt-3">
+    Точки...
+</div>
+
+<section class="d-flex flex-column syka" id="StartChoseCategory">
+
+    <h2 class="mt-3">Выберите интересующие вас категории</h2>
+
+    <hr />
+
+    <div class="box p-3">
+        <form>
+            @for(var i = 0; i < 13; i++)
+            {
+                <input type="checkbox" hidden id="@i" name="@i" />
+                <label for="@i" class="category">
+                    Категория_@i
+                </label>
+            }
+        </form>
+    </div>
+
+    <div class="mx-auto">
+        <button class="btn-next bg-blackberry" type="button">Далее</button>
+    </div>
+
+</section>
+
+@code {
+}
