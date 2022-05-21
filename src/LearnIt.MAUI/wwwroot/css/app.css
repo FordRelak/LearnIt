@@ -21,7 +21,7 @@ hr {
   border-radius: 50px;
   border: unset; }
 
-.btn-next.bg-blackberry, #StartChoseCategory input:checked + label.btn-next {
+.btn-next.bg-blackberry {
   color: white; }
 
 #blazor-error-ui {
@@ -56,51 +56,50 @@ hr {
   .flex-column, .navbar-brand {
     padding-left: env(safe-area-inset-left); } }
 
-.bg-blackberry, #StartChoseCategory input:checked + label {
+.bg-blackberry {
   background: -o-linear-gradient(315deg, #7EAEFF 2.88%, #FCA6E9 100%);
   background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%); }
 
-#StartChoseCategory .box {
-  background: white;
-  border-radius: 10px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 525px;
-  overflow: auto; }
+/*#StartChoseCategory {
 
-#StartChoseCategory .category {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  background-color: white;
-  border-radius: 10px;
-  height: 40px;
-  margin-bottom: 15px;
-  text-align: center;
-  width: 100%;
-  padding: 10px 0;
-  -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.15)); }
+    .box {
+        background: white;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 525px;
+        overflow: auto;
+    }
 
-#StartChoseCategory .category:last-child {
-  margin-bottom: 0; }
+    .category {
+        @include text-nunito(18px,24px);
+        background-color: white;
+        border-radius: 10px;
+        height: 40px;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.15));
+    }
 
-#StartChoseCategory .category.active {
-  background: -o-linear-gradient(315deg, #7EAEFF 2.88%, #FCA6E9 100%);
-  background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%); }
+    .category:last-child {
+        margin-bottom: 0;
+    }
 
-#StartChoseCategory button {
-  margin-top: 22px; }
+    .category.active {
+        background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+    }
 
-#StartChoseCategory input:checked + label {
-  color: white; }
+    button {
+        margin-top: 22px;
+    }
+
+    input:checked + label {
+        @extend .bg-blackberry;
+        color: white;
+    }
+}*/
 
 /*# sourceMappingURL=..\LearnIt.MAUI\wwwroot\css\app.css.map */

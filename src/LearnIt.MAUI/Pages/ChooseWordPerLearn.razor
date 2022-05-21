@@ -1,0 +1,93 @@
+﻿@page "/chooseWordPerLearn"
+
+<style>
+
+    section {
+        height: 100vh;
+    }
+
+    .squere {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .number {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        width: 55px;
+        height: 55px;
+        padding: 16px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    label {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        color: #979797;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    input:checked ~ label{
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        color: white;
+    }
+
+    .main {
+        flex: 1;
+    }
+</style>
+
+<section class="d-flex flex-column">
+
+    <div class="pt-4">
+        <h2 class="mt-3">Выберите интересующие вас категории</h2>
+
+        <hr />
+    </div>
+
+    <div class="main">
+        <div class="squere row gx-4 gy-3 px-4">
+            @for(var i = 1; i <= 8; i++)
+            {
+                <div class="col-auto">
+                    <input type="radio" hidden name="wordRadio" id="@i" value="@(i*5)" @onchange="OnRadioClicked" />
+                    <label for="@i" class="number">
+                        <span>@(i * 5)</span>
+                    </label>
+                </div>
+            }
+        </div>
+
+        <p class="pt-3">
+            За месяц вы сможете <br />
+            выучить @_wordPerMounth новых слов
+        </p>
+    </div>
+
+
+    <div class="mx-auto py-5">
+        <button class="btn-next bg-blackberry" type="button" @onclick="GoToNextPage">Далее</button>
+    </div>
+
+</section>
+
+@code {
+    private int _wordPerMounth;
+
+    void OnRadioClicked(ChangeEventArgs eventArgs)
+    {
+        _wordPerMounth = Convert.ToInt32(eventArgs.Value.ToString()) * 30;
+    }
+
+    void GoToNextPage()
+    {
+        NavigationManager.NavigateTo("");
+    }
+}
