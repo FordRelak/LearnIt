@@ -1,4 +1,5 @@
 ﻿@using System.Net.Http
+@using LearnIt.MAUI.Services
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Routing
 @using Microsoft.AspNetCore.Components.Web
@@ -7,7 +8,6 @@
 @using LearnIt.MAUI
 @using LearnIt.MAUI.Shared
 
-@using LearnIt.MAUI.Models
-
-
 @inject NavigationManager NavigationManager
+@inject ConfigurationService ConfigurationService
+@inject LocalCategoryService LocalCategoryService

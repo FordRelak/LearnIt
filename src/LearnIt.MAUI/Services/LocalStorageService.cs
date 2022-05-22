@@ -7,15 +7,29 @@
         {
             Preferences.Set(key, value);
         }
-
-        public void Get(string key, string defaultValue = "")
+        public void Add(string key, bool value)
         {
-            Preferences.Get(key, defaultValue);
+            Preferences.Set(key, value);
+        }
+
+        public string Get(string key, string defaultValue = "")
+        {
+            return Preferences.Get(key, defaultValue);
+        }
+
+        public bool Get(string key, bool defaultValue = false)
+        {
+            return Preferences.Get(key, defaultValue);
         }
 
         public void Remove(string key)
         {
             Preferences.Remove(key);
+        }
+
+        public void Clear()
+        {
+            Preferences.Clear();
         }
     }
 }

@@ -1,0 +1,88 @@
+﻿
+<style>
+    .main-block {
+        width: 100vw;
+        height: 60px;
+        background: #FFFFFF;
+        box-shadow: -4px 0px 20px rgba(0, 0, 0, 0.15);
+        position: sticky;
+        bottom: 10px;
+        padding-top: 11px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .navs {
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-block {
+        height: 100%;
+        text-align: center;
+        transition: all 1s ease;
+    }
+
+        .nav-block.active {
+            background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+            border-radius: 50px 50px 0px 0px;
+        }
+
+    .nav-img {
+        padding-top: 5px;
+    }
+
+</style>
+
+<div class="main-block">
+    <div class="navs row justify-content-beetwen h-100">
+        <div class="col">
+            @if(Mode == 1)
+            {
+                <div class="nav-block active">
+                    <img class="nav-img" src="/images/mainIcon.svg" />
+                </div>
+            }
+            else
+            {
+                <div class="nav-block">
+                    <img class="nav-img" src="/images/home.svg" />
+                </div>
+            }
+        </div>
+        <div class="col">
+            @if(Mode == 2)
+            {
+                <div class="nav-block active">
+                    <img class="nav-img" src="/images/book-open-white.svg" />
+                </div>
+            }
+            else
+            {
+                <div class="nav-block">
+                    <img class="nav-img" src="/images/book-open.svg" />
+                </div>
+            }
+        </div>
+        <div class="col">
+            @if(Mode == 3)
+            {
+                <div class="nav-block active">
+                    <img class="nav-img" src="/images/user-white.svg" />
+                </div>
+            }
+            else
+            {
+                <div class="nav-block">
+                    <img class="nav-img" src="/images/user.svg" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public byte Mode { get; set; }
+}

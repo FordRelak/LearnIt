@@ -77,7 +77,12 @@
 
 	<ItemGroup>
 	  <Folder Include="Data\" />
+	  <Folder Include="Models\" />
 	  <Folder Include="wwwroot\images\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\LearnIt.Common\LearnIt.Common.csproj" />
 	</ItemGroup>
 
 </Project>

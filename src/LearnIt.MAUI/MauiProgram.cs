@@ -1,4 +1,8 @@
-﻿namespace LearnIt.MAUI
+﻿using LearnIt.MAUI.Constants;
+using LearnIt.MAUI.Services;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+
+namespace LearnIt.MAUI
 {
     public static class MauiProgram
     {
@@ -18,8 +22,18 @@
                 });
 
             ConfigureServices(builder);
+            ConfigureConfigurationVariables(builder);
 
             return builder.Build();
+        }
+
+        private static void ConfigureConfigurationVariables(MauiAppBuilder builder)
+        {
+#if DEBUG
+            builder.Configuration[EnviromentConstants.ENVIROMENT_KEY] = EnviromentConstants.DEVELOPMENT_KEY;
+#else
+            builder.Configuration[EnviromentConstants.ENVIROMENT_KEY] = EnviromentConstants.PRODUCTION_KEY;
+#endif
         }
 
         private static void ConfigureServices(MauiAppBuilder builder)
@@ -28,6 +42,10 @@
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
+
+            builder.Services.TryAddSingleton<LocalStorageService>();
+            builder.Services.TryAddSingleton<LocalCategoryService>();
+            builder.Services.TryAddSingleton<ConfigurationService>();
         }
     }
 }

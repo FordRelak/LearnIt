@@ -1,0 +1,154 @@
+﻿@page "/SelectCategory"
+
+<style>
+    section {
+        background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+    }
+
+    .main {
+        background: #FFFFFF;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .text-back {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #979797;
+    }
+
+    .text-category {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    .text-save {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1384FF;
+    }
+
+    .box {
+        height: 100%;
+        overflow: auto;
+        background: #F4F4F4;
+        border-radius: 10px;
+    }
+
+        .box .box-wrapper {
+            padding: 15px 13px;
+        }
+
+        .box .category {
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 10px;
+            background: white;
+        }
+
+        .box input:checked ~ label {
+            background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        }
+
+            .box input:checked ~ label .text-label {
+                color: #FFFFFF;
+                font-weight: 700;
+            }
+            .box input:checked ~ label .circle {
+                border: 1px solid white;
+            }
+
+    .text-label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #818181;
+    }
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #979797;
+        border-radius: 50%;
+        margin-left: auto;
+        position:relative;
+    }
+
+        .circle .circle-inner {
+            width: 14px;
+            height: 14px;
+            background: white;
+            position:absolute;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
+
+    .flex-1{
+        flex:1;
+    }
+</style>
+
+<section class="d-flex flex-column flex-1">
+
+    <div class="mt-5 main d-flex flex-1">
+        <div class="p-4 d-flex flex-column flex-grow-1">
+            <div class="d-flex justify-content-between">
+                <div class="col-auto">
+                    <span class="text-back">
+                        Отмена
+                    </span>
+                </div>
+                <div class="col-auto">
+                    <span class="text-category">
+                        Выбор категории
+                    </span>
+                </div>
+                <div class="col-auto">
+                    <span class="text-save">
+                        Готово
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="box mt-2 flex-1">
+                <div class="box-wrapper row gy-1">
+                    @foreach(var item in ids)
+                    {
+                        <div class="col-12">
+                            <input hidden type="checkbox" id="@item" name="@item" />
+                            <label for="@item" class="category">
+                                <span style="width:22px; height:22px; background:white"></span>
+                                <span class="text-label ps-2">
+                                    Категория_@item
+                                </span>
+                                <span class="circle">
+                                    <span class="circle-inner"></span>
+                                </span>
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+@code {
+    private int[] ids = new int[] { 1, 2, 3, 4, 5,6,7 };
+}
