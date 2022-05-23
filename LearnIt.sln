@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.MAUI", "src\LearnIt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.WebApi", "src\LearnIt.WebApi\LearnIt.WebApi.csproj", "{35A436CC-8483-4B37-BC82-DFAE078E036C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.Common", "src\LearnIt.Common\LearnIt.Common.csproj", "{3D6E9A5F-3130-46C0-9209-B0E19C51C506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.Common", "src\LearnIt.Common\LearnIt.Common.csproj", "{3D6E9A5F-3130-46C0-9209-B0E19C51C506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

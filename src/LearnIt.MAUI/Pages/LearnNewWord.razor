@@ -1,0 +1,239 @@
+﻿@page "/LearnNewWord"
+
+<style>
+    .c-nav {
+        width: 100%;
+        height: 61px;
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        display: flex;
+        align-items: center;
+    }
+
+    .c-nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .c-nav-item {
+        padding: 7px 12px;
+    }
+
+    .c-nav-item-active {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 30px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .c-nav-text-active {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .c-nav-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .word-counter {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #979797;
+    }
+
+    .word-block {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+    .word-main {
+        flex: 1;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-1 {
+        flex: 1;
+    }
+
+    .main-learn-word {
+        padding: 25px 40px;
+    }
+
+    .main-learn-word-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.6931px;
+        line-height: 13px;
+        color: #454545;
+    }
+
+    .ttt {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #979797;
+    }
+
+    .learn-new-word {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #444444;
+    }
+
+    .word-eye {
+        background: #FFFFFF;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        width: fit-content;
+        margin-top: 20px;
+    }
+
+    .suc-but {
+        background: @(setBackSuc ? "#60EE99": "none");
+        border-radius: 10px;
+        padding: 8px 12px;
+        color: @(setBackSuc ? "white" : "black");
+    }
+
+    .button-selector {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        user-select: none; 
+    }
+
+    .den-but {
+        background: @(setBackDen ? "#FF8282": "none");
+        border-radius: 10px;
+        padding: 8px 12px;
+        color: @(setBackDen ? "white" : "black");
+    }
+</style>
+
+<section class="flex-1 d-flex flex-column">
+
+    <div class="c-nav">
+        <div class="c-nav-wrapper">
+            <div class="c-nav-item c-nav-item-active">
+                <span class="c-nav-text-active">Новые слова</span>
+            </div>
+            <div class="c-nav-item">
+                <span class="c-nav-text-active">Повтор</span>
+            </div>
+        </div>
+    </div>
+
+    <article class="px-4 pt-4 word-block flex-1">
+
+        <div class="word-counter">
+            2/10
+        </div>
+
+        <div class="pt-2 word-main">
+            <div class="main-learn-word flex-1">
+                <div class="main-learn-word-title">
+                    Заучивание нового слова
+                </div>
+                <div style="padding-top: 40px">
+                    <div class="ttt">Категория</div>
+                    <div class="learn-new-word">Cлово</div>
+                </div>
+                @if(!isShowOriginal)
+                {
+                    <div class="word-eye" @onclick="OnShowOriginal">
+                        <img src="/images/eye.svg" />
+                    </div>
+                }
+                @if(isShowOriginal)
+                {
+                    <div class="show-original">
+                        <hr />
+                        <span>123</span>
+                        <hr />
+                    </div>
+                }
+            </div>
+            <hr />
+            <div class="button-selector row px-2 pb-4">
+                <div class="col" @ontouchstart="OnSecTouchStart" @ontouchend="OnSecTouchEnd">
+                    <div class="suc-but h-100">
+                        <span>
+                            Отложить слово
+                            для повтора
+                        </span>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center">
+                    <img src="/images/Vector4.svg" />
+                </div>
+                <div class="col" @ontouchstart="OnDenTouchStart" @ontouchend="OnDenTouchEnd">
+                    <div class="den-but h-100">
+                        Показывать это слово ещё
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+</section>
+
+
+@code {
+    private bool isShowOriginal { get; set; }
+    private bool setBackDen{ get; set; }
+    private bool setBackSuc{ get; set; }
+
+    void OnShowOriginal()
+    {
+        isShowOriginal = !isShowOriginal;
+    }
+    
+    void OnDenTouchStart()
+    {
+        setBackDen = true;
+    }
+
+    void OnDenTouchEnd()
+    {
+        setBackDen = false;
+    }
+    
+    void OnSecTouchStart()
+    {
+        setBackSuc = true;
+    }
+
+    void OnSecTouchEnd()
+    {
+        setBackSuc = false;
+    }
+}
