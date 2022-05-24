@@ -1,0 +1,193 @@
+adjacent//примыкающий
+adorn//украшать
+alcove//альков, ниша
+appliance//приспособление, устройство, прибор
+armchair//кресло
+apartment//квартира
+balcony//балкон
+bathroom//ванная комната
+basement//подвал, фундамент
+be crammed up with furniture//быть заставленным мебелью
+be cramped for space//мало места
+be short of light//мало света
+bedroom//спальня
+bedside table//тумбочка
+bedspread//покрывало
+blind//штора
+block of flats
+многоквартирный дом
+block out the light//загораживать свет
+bookcase//книжный шкаф
+building//здание
+building society//строительное общество
+bungalow//бунгало
+
+bunk bed//двухъярусная кровать
+camp bed//раскладушка
+carpet//ковёр
+ceiling//потолок
+cellar//подвал, погреб
+central heating//центральное отопление
+chair//стул
+chandelier//люстра
+chest of drawers//комод
+china//фарфор
+closet//стенной шкаф, чулан
+coat rack//вешалка
+coffee table//журнальный столик
+convenience//удобство
+cosy//уютный
+cooker//плита
+cooker hood//вытяжка
+corridor//коридор
+cottage
+коттедж, домик
+country-house//загородный дом
+cover with dust sheets//покрыть чехлами (о мебели)
+cover//покрывало
+crammed up with things//забитый вещами
+crockery//фарфоровая и фаянсовая посуда
+crystal//хрусталь
+cupboard//шкаф, сервант
+curtain//занавеска
+curtain rail//карниз
+cushion//диванная подушка
+cutlery//ножевые изделия, металлические столовые приборы
+decorate//оформлять, украшать
+detached house//отдельный дом
+dining room//столовая
+dinner set//столовый сервиз
+dish-drainer//сушилка для посуды
+do the decorating//делать косметический ремонт
+door-handle//дверная ручка
+double bed//двуспальная кровать
+drawing room//гостиная
+dressing-table//туалетный столик
+drive in a nail//забить гвоздь
+dustbin//мусорное ведро
+dwelling//жилище
+entrance//вход
+fail to operate//сломаться
+feel at home//чувствовать себя как дома
+fence//забор
+fitted carpet//палас, ковровое покрытие
+fireplace//камин
+flight of stairs//лестничный пролёт
+floor (parquet, polished)//пол (паркетный, натёртый)
+floor polisher//полотёр
+flowered//цветастый
+fluorescent lamp//лампа дневного света
+flush-toilet//унитаз
+freezer//морозильная камера
+fridge//холодильник
+front of the house//фасад дома
+
+focus of the room//центральное место в комнате
+furnish//меблировать
+furniture//мебель
+garage//гараж
+get rickety//расшататься (о мебели)
+hall//прихожая
+hangings//портьеры
+hedge//изгородь
+home
+дом, домашний очаг
+houseplant//комнатное растение
+housewarming party//новоселье
+interior//интерьер
+keyhole//замочная скважина
+kitchen//кухня
+know where things go//знать, где что лежит
+lamp//лампа
+lavatory//туалет
+let a flat//сдавать квартиру
+lift//лифт
+lights fuse / go out//лампочки перегорают
+linoleum//линолеум
+living room//гостиная
+look out onto ...//выходить на ... (об окнах)
+lounge//гостиная
+lustre//люстра
+mansion//особняк, большой дом
+mat//коврик, циновка
+mixer tap//смеситель, кран
+modem accomodations//современные удобства
+mortgage//ссуда, заём (при покупке дома), ипотека
+move in/to//въезжать, переезжать
+move the furniture around//передвигать мебель
+neighbour//сосед
+nursery//детская комната
+one / two /...-room flat//одно / двух /... комнатная квартира
+
+one /two /...-storeyed house//одно / двух /...этажный дом
+oven//духовка
+owner//владелец, собственник
+palace//дворец
+papered//оклеенный обоями
+parquet//паркет
+patterned//с рисунком
+pillow//подушка
+pillow-case//наволочка
+pipes get clogged//трубы засоряются
+plain//однотонный (о ткани)
+portable//переносной
+put things right//починить, исправить
+quilt//стёганое одеяло
+radiator//батарея центрального отопления
+real estate agency//агентство недвижимости
+refrigerator//холодильник
+refuse-chute//мусоропровод
+renovate//подновлять, ремонтировать, реконструировать
+repair//ремонт
+room//комната
+rent a flat//снимать квартиру
+rug//пушистый коврик
+running water//водопровод
+self-contained flat//отдельная квартира
+semi-detached house//один из двух домов под общей крышей
+share a room with smb.//проживать в одной комнате с кем-либо
+sheet//простыня
+shift//передвигать
+show the dirt//пачкаться
+single bed//односпальная кровать
+sink//раковина (на кухне)
+sky-scraper//небоскрёб
+sofa//диван
+sewing-machine//швейная машина
+space//место, пространство
+spacious//просторный
+spyhole//дверной глазок
+stack chairs//составлять стулья
+standard lamp//торшер
+statuette//статуэтка
+stereo system//стереосистема
+stool//табурет
+storeroom//кладовая
+stove//плита, печь
+tap//кран
+tea set//чайный сервиз
+three quarter bed//полутораспальная кровать
+TV set//телевизор
+throw open//распахнуть
+threshold//порог
+tiled//покрытый кафельной плиткой
+toilet//туалет
+tubular steel chair//стул с алюминиевыми ножками
+unlock the door//отпереть дверь
+upholstered furniture//мягкая мебель
+upholstery//обивка
+utensil//посуда, утварь
+vacuum cleaner//пылесос
+vegetable cutter//овощерезка
+waffle-maker//вафельница
+wall lamp//бра
+wall-paper//обои
+wall units//стенка
+wardrobe//шкаф
+washing machine//стиральная машина
+wash-basin//(умывальный) таз, умывальная раковина
+washing wall-paper//моющиеся обои
+whitewash//побелка; белить, делать побелку
+window-sill//подоконник
+yard//двор
+

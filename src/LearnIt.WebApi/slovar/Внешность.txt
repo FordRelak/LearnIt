@@ -1,0 +1,97 @@
+arched//дугой (брови)
+attractive//привлекательный
+bald//лысый
+bald patch//лысина
+beard//борода
+beautiful, lovely, pretty
+красивый (о женщине или ребенке)
+beauty//красотка
+big / great toe//большой палец (на ноге)
+breast//грудь
+broad forehead//широкий лоб
+brows//брови
+bushy//густые (о бровях)
+chin//подбородок
+close-set eyes//близко посаженные глаза
+common//обычный
+complexion//цвет лица
+cropped head//стриженная голова
+curly hair//кудрявые волосы
+deep-set eyes//глубоко посаженные глаза
+dimples//ямочки (на щеках)
+dull glance//тусклый взгляд
+ear//ухо
+elbow//локоть
+face//лицо
+fair hair//белокурые волосы
+fat//толстый
+figure//фигура
+finger//палец (на руке)
+first tooth//молочный зуб
+flush//румянец
+foot//ступня
+fourth finger//безымянный палец
+fresh//свежий
+glassy eyes//тусклые глаза
+good-looking, handsome//красивый (о мужчине)
+hair-cut//стрижка
+height//рост
+hooked nose//нос крючком
+imposing appearance//внушительная внешность
+index finger, forefinger//указательный палец
+intelligent expression//умный взгляд
+knee//колено
+lashes//ресницы
+leg//нога
+little finger//мизинец (на руке)
+little toe//мизинец (на ноге)
+lobe//мочка
+locks, curls//кудри
+lower lip//нижняя губа
+middle / second finger//средний палец
+middle-sized//средний
+moustache//усы
+mouth//рот
+nail//ноготь
+neck//шея
+oval//овальный
+pale//бледный
+palm (of the hand)//ладонь
+penciled//нарисованные
+plain//простой
+plump//пухлый
+prominent ears//оттопыренные уши
+ring finger//безымянный палец (на правой руке)
+round//круглый
+shock of hair//шапка волос
+short//низкий
+slim//тонкий
+snow-white teeth//белоснежные зубы
+sparse hair//жидкие волосы
+splendid hair//пышные волосы
+square//квадратный
+stomach, belly//живот
+stooping//согнутый
+stout//полный
+straight//прямой
+tall//высокий
+thin//худой
+thumb//большой палец (на руке)
+to arrange//делать прическу
+to dye hair//красить волосы
+to keep fit//держать форму
+to paint / rouge cheeks//красить щеки
+to put on lipstick//красить губы
+to use / wear make-up//краситься
+toe//палец (на ноге)
+tongue//язык
+turned up//вздернутый (нос)
+ugly//уродливый
+unpleasant look in one’s eyes//тяжелый взгляд
+unprepossessing appearance//непривлекательная внешность
+upper lip//верхняя губа
+waist//талия
+wavy hair//волнистые волосы
+weight//вес
+wrist//запястье
+

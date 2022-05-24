@@ -1,0 +1,92 @@
+аист//stork
+альбатрос//albatross
+баклан//cormorant
+бекас//snipe
+беркут//golden eagle
+вальдшнеп//woodcock
+воробей//sparrow
+ворон//raven
+ворона//crow
+выпь//bittern
+гагара//loon, diver
+галка//jackdaw, daw
+глухарь//cock of the wood; wood grouse
+
+гоголь//goldeneye
+голубь//pigeon; dove
+горлица//turtle-dove
+грач//rook
+гусь//goose
+дрозд//thrush
+дятел//woodpecker
+жаворонок//lark
+журавль//crane
+зимородок//halcyon, kingfisher
+зяблик//chaffinch
+иволга//oriole
+индейка//turkey
+канарейка//canary
+клёст//crossbill
+козодой//dorhawk, nightjar
+колибри//hummingbird
+коноплянка//linnet
+королек//regulus
+коростель//landrail, corncrake
+коршун//kite
+кряква//wild duck, mallard
+кукушка//cuckoo
+кулик//sandpiper
+курица//hen
+куропатка//partridge (серая); willow grouse (белая)
+ласточка//swallow
+лебедь//swan; cob (самец), cob-swan
+малиновка//robin, redbreast
+мухоловка//flycatcher
+неясыть//tawny owl
+нырок//pochard
+овсянка//(yellow) bunting, yellowhammer
+оляпка//dipper, ouzel
+орел//eagle
+павлин//peacock, peafowl
+пеночка//chiffchaff
+перепел//quail
+петух//cock; rooster
+пигалица = чибис//lapwing, pewit
+пингвин//penguin
+поползень//nuthatch
+попугай//parrot
+пустельга//kestrel
+
+рябчик//hazel-grouse, hazel-hen
+сапсан//peregrine
+свиристель//waxwing
+синица//tomtit, blue titmouse, blue tit
+скворец//starling
+славка//whitethroat, warbler
+снегирь//bullfinch
+сова//owl
+
+сойка//jay
+соловей//nightingale
+сорока//magpie
+страус//ostrich
+стриж//swift
+сыч//little owl
+тетерев//black grouse, blackcock
+трясогузка//wagtail
+турухтан//ruff
+удод//hoopoe
+утка//duck
+фазан//pheasant
+филин//eagle-owl
+фламинго//flamingo
+цапля//heron; egret
+цесарка//guinea fowl
+чайка//gull; sea gull
+чечетка//redpoll
+чиж//siskin
+чирок//teal
+щегол//goldfinch
+юрок//bramble finch, brambling
+ястреб//hawk
+

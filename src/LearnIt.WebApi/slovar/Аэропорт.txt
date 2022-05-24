@@ -1,0 +1,92 @@
+aeroplane, airplane, plane, aircraft//самолет
+air sickness bag//санитарный пакет, используемый при воздушной болезни
+airport//аэропорт
+aisle//проход
+aisle seat (seat near the aisle)//место у прохода
+armrest//подлокотник
+arrival and departure monitor//монитор вылетов и прилетов
+baggage carousel//багажный транспортер
+baggage claim area//зонa получения багажа
+baggage claim check//багажный талон
+boarding//посадка
+boarding pass//посадочный талон
+cabin//салон самолета
+call button//кнопкa вызова
+cargo door//грузовой люк
+carry-on bag//ручная кладь
+check-in counter (desk)//стойка регистрации
+co-pilot//второй пилот
+cockpit//кабина самолета
+concession stand/snack bar//закусочная
+control tower//диспетчерская вышка
+conveyor belt//транспортер (конвейер) багажа
+customs//таможня
+customs declaration form//таможенная декларация
+customs officer//служащий таможни
+to declare//указывать / предъявлять вещи, облагаемые пошлиной
+delay//задержка
+departure gate//выход (на посадку в самолет)
+departure lounge//зал ожидания (перед выходом на посадку
+departures board//табло
+destination//место назначения
+duty-free shop//магазин беспошлинной торговли
+emergency exit//аварийный выход
+emergency instruction card//инструкция по поведению в чрезвычайных ситуациях
+fasten seat belt sign//сигнал "пристегните ремни"
+first-class section//первый класс
+flight//рейс / полет
+flight attendant//бортпроводник
+flight engineer//бортинженер
+fuselage//фюзеляж
+galley//камбуз
+garment bag//мешок для одежды
+gate//вход / выход
+gift shop//сувенирный магазин
+green / red channel//зеленый / красный коридор
+hand luggage / carry-on luggage//ручной багаж, ручная кладь
+hijack//угон самолета
+immigration officer//cотрудник иммиграционной службы
+information//справочное бюро
+instrument panel//панель контрольно-измерительных приборов
+landing//посадка
+landing gear//шасси
+lavatory//туалет
+life vest//спасательный жилет
+liquid//жидкость
+luggage, baggage//багаж
+luggage carrier//тележка (для багажа)
+luggage tags / labels//бирки на багаже
+luggage ticket//багажная квитанция
+metal detector//металлоискатель
+middle seat//среднее сидение
+no smoking sign//сигнал "не курить"
+overhead compartment//багажная полка (сверху)
+one way trip / ticket//поездка / билет в один конец
+oxygen mask//кислородная маска
+passenger//пассажир
+passport//паспорт
+pilot//captain, пилот
+to reserve//бронировать
+round trip//поездка туда и обратно
+round trip ticket//билет туда и обратно
+runway//взлетно-посадочная полоса
+schedule//расписание
+seat//место, сиденье, кресло
+seat belt//ремень безопасности
+seat pocket//карман кресла
+security checkpoint//контрольно-пропускной пункт
+security guard//охранник
+suitcase//чемодан
+tail//хвост
+terminal//терминал
+ticket//билет
+ticket agent//кассир билетной кассы
+ticket counter//касса
+tray//поднос
+trolley//тележка
+visa//виза
+waiting area//зонa ожидания
+window seat//место у окна
+wing//крыло
+X-ray machine//рентгеновский аппарат для осмотра багажа
+

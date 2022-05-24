@@ -1,0 +1,67 @@
+аквамарин//aquamarine
+бежевый//beige
+белоснежный//snowy, snow-white
+белый//white
+бирюзовый//turquoise
+бледный//pale
+бордовый//wine red, bordeaux, claret red
+бронзовый//bronze
+желто-зеленый//yellow green
+желтый//yellow
+жемчужный//pearl
+зеленый//green
+золотистый//goldenrod
+золотой//gold, golden
+
+изумрудный//emerald
+индиго//indigo
+кирпичный//firebrick
+коралловый//coral
+коричневый//brown
+красный//red
+кремовый//cream
+лазурный//azure
+лимонно-зеленый//lime green
+лимонный//lemon
+лососевый//salmon
+малиновый//raspberry
+медный//copper
+медовый//honeydew
+морская волна//aqua
+небесно-голубой//sky blue
+оливковый//olive
+оранжевый//orange
+охра//sienna
+пепельно-серый//ash
+персиковый//peach, peachpuff
+песочный//sand-coloured
+пурпурный//purple
+розовый//pink
+салатовый//light-green
+светлый
+light
+серебряный//silver, silvery
+серый//grey, gray
+синий//blue
+сиреневый//lilac
+сливовый//plum
+слоновая кость//ivory
+стальной серый//steel gray
+темно-бордовый//maroon
+темный//dark
+тёмно-синий//navy (blue)
+терракотовый//terracotta
+тусклый//dull
+фиолетовый//purple
+фиолетовый, темно-лиловый//violet
+фисташковый, зеленоватый цвет
+pistachio
+фуксин//magenta
+фуксия//fuchsia
+хаки//khaki, forest green
+цвет морской волны
+seagreen
+цвет морской пены//sea foam
+черный//black
+янтарный//amber
+

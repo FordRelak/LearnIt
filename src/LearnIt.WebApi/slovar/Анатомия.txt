@@ -1,0 +1,131 @@
+anatomy//анатомия
+abdomen//живот
+accouchement//роды
+ankle//голеностоп
+anus//задний проход
+appendix//аппендикс
+arm//рука
+armpit//подмышка
+artery//артерия
+backbone//позвоночник
+bald head//лысина
+beard//борода
+biceps//бицепс
+birth//рождение
+blood//кровь
+blood circulation//кровообращение
+blood group//группа крови
+blood vessel//кровеносный сосуд
+body//тело
+bone//кость
+bowels//кишечник
+brain//мозг
+breast//грудь (женская)
+breath//дыхание
+bronchus//бронх
+build//телосложение
+bust//бюст
+buttocks//ягодицы
+calf//икра ноги
+canine//клык
+capillary//капилляр
+cerebrum//головной мозг
+cheek//щека
+cheekbone//скула
+chest//грудная клетка
+chin//подбородок
+clavicle//ключица
+corpse//труп
+digestion//пищеварение
+dimple//ямка на щеке
+ear//ухо
+elbow//локоть
+enamel//эмаль (зубная)
+entrails//кишки
+eyebrow//бровь
+eyelash//ресница
+eyelid//веко
+finger//палец на руке
+fist//кулак
+flat-foot//плоскостопие
+foot (feet)//нога, ступня (ноги, ступни)
+forearm//предплечье
+forefinger//указательный палец
+forehead//лоб
+fourth finger//безымянный палец
+freckle//веснушка
+fringe//челка
+gland//лимфатический узел
+groin//пах
+gum//десна
+haemoglobin//гемоглобин
+haemorrhage//кровотечение
+hair//волосы
+hand//кисть
+head//голова
+health//здоровье
+heart//сердце
+heel//пятка
+immunity//иммунитет
+intestine//кишечник
+jaw//челюсть
+kidney//почка
+knee//колено
+larynx//гортань
+leg//нога
+lip//губа
+liver//печень
+little toe//мизинец ноги
+little finger//мизинец руки
+lung//легкое
+middle finger//средний палец
+milk-tooth//молочный зуб
+molar//коренной зуб
+mole//родинка
+moustache//усы
+mouth//рот
+muscle//мышца
+muscles//мускулатура
+nail//ноготь
+nape//затылок
+navel//пупок
+neck//шея
+nerve//нерв
+nose//нос
+nostril//ноздря
+oesophagus//пищевод
+ovule//яйцеклетка
+palm//ладонь
+pelvis//таз
+puberty//половая зрелость
+pulse//пульс
+pupil//зрачок
+rhesus//резус
+rib//ребро
+ring-finger//безымянный палец левой руки
+saliva//слюна
+salivation//слюноотделение
+scapula//лопатка
+sex//пол
+shoulder//плечо
+skeleton//скелет
+skin//кожа
+skull//череп
+spine//позвоночный столб
+stomach//желудок
+stubble//щетина
+temple//висок
+thigh//бедро
+thorax//грудная клетка
+throat//горло
+thumb//большой палец руки
+toe//палец ноги
+tongue//язык
+tonsil//миндалина
+tooth (teeth)//зуб (зубы)
+urinary bladder//мочевой пузырь
+urine//моча
+vein//вена
+vertebra//позвонок
+wart//бородавка
+

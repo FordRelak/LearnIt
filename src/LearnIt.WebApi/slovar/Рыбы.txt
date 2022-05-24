@@ -1,0 +1,81 @@
+австралийская сериолелла//warehou
+австралийская ставрида//yellowtail
+австралийский каранкс//trevally
+азиатская корюшка//icefish
+американская сельдь//menhaden
+анчоус (европейская килька)//anchovy
+барракута (снэк)//barracouta
+белуха//whitefish
+белянка//milkfish
+голавль//chub, bullhead
+голец (арктический)//char, loach
+голубая мольва//blue ling
+горбуша//pink (hump-back) salmon
+горбыль//croaker
+густера//silver bream
+длиннопёрый тунец//yellowfin tuna
+европейская сардина//pilchard
+елец//dace
+ёрш//American plaice, dab, black back
+желтый окунь//yellow perch
+жерех//asp
+змеевидная макрель//gemfish king barracouta
+камбала//turbot brill
+карась//crucian carp
+карп//carp
+кета//chum (keta dog) salmon
+кефаль//mullet
+кижуч (серебристый лосось)//coho (silver) salmon
+королевский лосось//chinook (spring king) salmon
+корюшка//smelt
+красноперка//rudd, redeye, redfin
+кумжа (австралийский лосось, арктический голец, лосось-таймень)//sea trout
+лещ//bream
+линь//tench, marline
+малый тунец//skipjack
+мелкая треска (морской окунь, мероу, групер)//snapper
+менек//tusk (cusk)
+мойва//capelin
+морская щука//ling
+морской лещ (карась)//sea bream
+морской окунь//rockfish
+морской угорь//conger eel
+налим//burbot
+налим атлантический//picked dogfish
+нерка//sockeye (red) salmon
+норвежский биб//Norway pout
+окунь//common bass
+окунь тихоокеанский//Pacific Ocean perch
+палтус//halibut
+плотва//dace, roach
+полосатый окунь//striped bass
+ручьевая форель//brown trout
+сазан//goldfish, common carp
+сайда//pollack
+сайка (полярная треска)//polar cod
+сайра//Pacific saury
+сарган (макрелещука)//garfish
+сардина (средиземноморская килька)//Mediterranean anchovy
+сельдь//herring
+сёмга (лосось благородный, атлантический лосось)//Atlantic salmon
+сиг (проходной, морской)//common whitefish
+синец//blue bream
+скумбрия//bonito, hardhead, mackerel
+сом//channel catfish
+сом (зубатка)//catfish, wolffish
+сомик//pout
+таймень//taimen
+треска//cod, haddock
+треска тихоокеанская//pacific cod
+тунец//frigate mackerel
+угорь//eel
+уклейка//bleak
+форель озерная (золотая корюшка, серебрянка)//great silver smelt
+форель радужная//rainbow trout
+хариус//grayling
+хек//whiting
+черноморская килька//Black Sea anchovy
+шпрот//sprat
+щука обыкновенная//pike
+язь//ide, nerfling
+

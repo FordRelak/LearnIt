@@ -1,0 +1,134 @@
+transport//транспорт
+breakdown//авария
+buddy seat//коляска мотоцикла
+cabstand//стоянка такси
+helmet//каска, шлем
+crossroad//перекресток
+garage//автомастерская
+highway//шоссе
+main//магистраль
+passenger compartment//салон авто
+park//парковка
+parking place//стоянка
+pedestrian//пешеход
+ring road//кольцевая дорога
+refuelling//автозаправка
+sidewallk//тротуар
+station//станция
+stowaway//пассажир без билета
+traffic lights//светофор
+transit//транзит
+vehicle//транспортное средство
+overland transport//наземный транспорт
+automobile//автомобиль
+bulldozer//бульдозер
+bus//автобус
+catafalque//катафалк
+combine harvester//комбайн зерновой
+dust-cart//мусоровоз
+exavator//экскаватор
+express train//экспресс
+jeep//джип
+kar//кар
+landrover//вездеход
+loader//погрузчик
+lorry//грузовик
+Metro//метро
+motor bike//мопед
+motorcycle//мотоцикл
+petrol tanker//бензовоз
+push-cycle//самокат
+taxi//такси
+tram//трамвай
+trolley bus//троллейбус
+truck//грузовик
+undeground//метрополитен
+components//детали
+boot//багажник
+brake//тормоз
+bumper//бампер
+cab//кабина
+carburettor//карбюратор
+chassis//шасси
+cowling//капот
+gas tank//бак для горючего
+ignition//зажигание
+iner tube//камера колеса
+motor//мотор
+pedal//педаль
+piston//поршень
+quater lights//форточка в автомобиле
+rear wheel//колесо заднее
+shock-absorber//армотизатор
+speedometer//спидометр
+trunk//багажник
+tyre//шина
+wheel//колесо, руль
+body//кузов
+cabriolet//кабриолет
+hatch-back//хетчбек
+jeep//джип
+limousine//лимузин
+sedan//седан
+van//фургон
+universal//универсал
+railway//железная дорога
+barrier//шлагбаум
+berth//плацкарт
+car//вагон
+compartment//купе
+diesel locomotive//тепловоз
+electric locomotive//электровоз
+electrotrain//электропоезд
+hand car//дрезина
+local train//пригородный поезд
+locomotive//локомотив
+platform//платформа
+semaphore//семафор
+steam locomotive//паровоз
+suburban train//электричка
+switch//стрелка
+track//рейсовый путь
+tram//трамвай
+train//поезд
+marine//флот
+anchor//якорь
+aqualung//акваланг
+bay//бухта
+buoy//буй
+cable//цепь якорная
+canvas//паруса
+compartment//отсек
+deck//палуба
+harbor//гавань
+hold//трюм
+jetty//пристань
+mast//мачта
+master//капитан
+moorage//причал
+overboat//за борт
+rostrum//нос корабля
+scull//весло
+seafaring//мореплавание
+shipping//судоходство
+skin-diver//аквалангист
+sluice//шлюз
+stern//корма
+water craft//суда, лодки
+boat//шлюпка
+dinghy//моторная лодка
+ferry//паром
+icebreaker//ледокол
+raft//плот
+sailer//парусник
+steamship//пароход
+steam-ship//теплоход
+tanker//танкер
+tow//буксир
+yacht//яхта
+aviation//авиация
+aerobus//аэробус
+airplane (plane)//самолет
+hang-glider//дельтаплан
+helicopter//вертолет
+undercarriage//шасси

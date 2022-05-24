@@ -1,0 +1,264 @@
+бедро//thigh, hip
+большой палец//thumb
+бровь//eyebrow
+висок//temple
+волосы (волос)//hair
+глаз//eye
+голова//head
+горло//throat
+грудь//chest, breast, bosom, bust
+желудок//stomach
+живот//belly, stomach
+губа//lip
+запястье//wrist
+зуб//tooth
+кожа//skin
+кость//bone
+кровь//blood
+лёгкое//lung
+лицо//face
+лоб//forehead
+локоть//elbow
+мозг//brain
+нога//leg
+ноготь//(finger / toe)nail
+нос//nose
+палец//finger
+палец ноги//toe
+пах//groin
+печень//liver
+плечо//shoulder
+подбородок//chin
+позвоночник//spine, backbone, spinal column
+почка//kidney
+пятка//heel
+ресница//eyelash
+рот//mouth
+рука//hand; arm
+сердце//heart
+скелет//skeleton
+спина//back
+стопа//foot
+талия//waist
+тело//body
+усы//moustache
+ухо//ear
+челюсть//jaw(-bone)
+череп//skull
+шея//neck
+щека//cheek
+язык//tongue
+болезни / телесные повреждения
+diseases / injuries
+аллергическая реакция//allergic reaction
+аллергия//allergy
+амнезия; потеря памяти//amnesia, memory loss
+ангина//quinsy, sore throat
+аппендицит//appendicitis
+артрит//arthritis
+астма//asthma
+бессонница//insomnia
+бешенство//rabies
+болезнь//illness, sickness, disease
+- заразная ~//contagious ~
+- излечимая ~//curable ~
+- неизлечимая ~//incurable ~
+- смертельная ~//fatal, deadly ~
+- хроническая ~//chronic ~
+болезнь Альцгеймера//Alzheimer's disease
+болезнь сердца//heart disease
+больное горло, боль в горле//a sore throat
+боль в груди//chest pain
+боль в животе//stomachache
+боль в спине//backache
+боль в ухе//earache
+больничный (отпуск по болезни)//sick leave
+больной//ill, sick, diseased
+бородавка//wart
+бронхит//bronchitis
+брюшной тиф//typhoid fever
+венерическая инфекция//STI (sexually transmitted infection)
+ветряная оспа//chicken pox, chickenpox
+вирус//virus
+ВИЧ//HIV (human immunodeficiency virus)
+воспаление//inflammation
+воспаление легких//pneumonia
+воспаление миндалин, тонзиллит//tonsillitis, inflammation of the tonsils
+вросший ноготь на пальце ноги//ingrown toenail
+выздороветь//to recover
+выкидыш//miscarriage
+высокое кровяное давление//high blood pressure, hypertension
+гастрит//gastritis
+гемофилия//haemophilia
+геморрой//haemorrhoids, piles
+гепатит//hepatitis
+герпес//herpes
+гипотермия; переохлаждение//hypothermia, exposure to cold
+глухой//deaf
+головная боль//headache
+головокружение//giddiness, dizziness, vertigo
+горная болезнь//mountain sickness, altitude sickness
+грибок//fungus
+грипп//flu, influenza
+грыжа//hernia, rupture
+депрессия//depression
+диабет//diabetes
+диагноз//diagnosis
+диарея//diarrhea, diarrhea
+дизентерия//dysentery
+дислексия, неспособность к чтению//dyslexia
+дифтерия//diphtheria
+жёлтая лихорадка//yellow fever
+желтуха//jaundice
+заболевать / заболеть//to fall ill (with), to be taken ill (with), to be down (with)
+заноза//splinter
+запор//constipation
+заразный//infectious, contagious
+изжога//heartburn
+инсульт//stroke, apoplexy, cerebrovascular accident
+инфаркт//infarction, heart attack
+инфекция//infection
+кашель//cough
+кишечная палочка//Escherichia coli
+коклюш//whooping cough
+конъюнктивит//conjunctivitis
+корь//measles
+кровотечение//bleeding
+кровотечение из носа//nosebleed
+лейкемия, лейкоз//leukemia, leukosis
+малярия//malaria
+менингит//meningitis
+мигрень//migraine
+мозоль//callus, corn
+мононуклеоз инфекционный//glandular fever, kissing disease
+нарыв, абсцесс, гнойник//abscess, boil
+насморк//(head) cold, cold in the head, running nose
+недомогание//ailment, malaise
+несварение желудка; нарушение пищеварения//indigestion
+низкое кровяное давление//low blood pressure, hypotension
+обезвоживание//dehydration
+облысение//hair loss, alopecia, baldness
+обморожение//frostbite
+обморок//faint, fainting fit
+ожирение//obesity
+опухоль//swelling, tumor
+осложнение болезни//complication of the disease
+паралич//paralysis
+перелом//fracture
+перитонит//peritonitis
+пищевое отравление//food poisoning
+пневмония//pneumonia
+подагра//gout
+полиомиелит//polio
+понос//diarrhea, diarrhoea
+порез//cut
+порезаться//to cut oneself
+припадок//fit, attack
+- нервный припадок//fit / attack of nerves, nervous fit
+простуда//cold
+простудиться//to catch / take (a) cold / chill
+прыщ//spot, pimple
+рак//cancer
+рак лёгких//lung cancer
+расстройство желудка//indigestion, stomach upset
+расстройство питания//eating disorder
+растяжение связок//sprain
+ревматизм//rheumatism
+свинка//mumps
+сенная лихорадка//hay fever
+сердечный приступ//heart attack
+синяк//bruise
+скарлатина//scarlet fever
+склероз//sclerosis
+- рассеянный склероз//multiple sclerosis (MS)
+сломать ногу//to break one's leg
+сломанная (сломанная кость, ~ рука, ~ нога)//broken (broken bone, broken arm, broken leg)
+солнечный ожог//sunburn
+солнечный удар//sunstroke
+сотрясение мозга//brain concussion
+СПИД//AIDS (acquired immunodeficiency syndrome)
+старческое слабоумие//senile dementia
+стенокардия, грудная жаба//angina
+столбняк//tetanus
+стресс//stress
+судорога, спазм//cramp, convulsion, spasm
+сыпь//rash, (skin) eruption
+телесное повреждение//injury
+температура//temperature, fever
+тепловой удар//heat stroke
+тиф брюшной//typhoid fever
+токсоплазмоз (паразитарная болезнь)//toxoplasmosis
+туберкулез//tuberculosis
+угорь//acne
+усталость//fatigue
+холера//cholera
+царапина//scratch
+чесотка//scabies
+чувство тошноты//nausea
+чума//plague
+шизофрения//schizophrenia
+шишка (опухоль)//swelling, bump
+шрам//scar
+экзема//eczema
+энцефалит (клещевой)//(tick-borne) encephalitis
+эпидемия//epidemic
+эпилепсия//epilepsy
+язва//ulcer
+язва желудка//gastric ulcer, stomach ulcer
+симптомы / жалобы / рекомендации//symptoms / complaints / recommendations
+беременная//pregnant
+бледный//pale, pallid
+боль//pain, ache
+бросать / бросить курить//to give up smoking, to stop / quit smoking
+в хорошей форме//fit, in good shape
+дышать//to breathe
+заплакать//to start / begin to cry, to start crying
+здоровый//healthy
+здоровье//health
+курить//to smoke
+недееспособный (инвалид)//disabled, handicapped
+отдыхать / отдохнуть//to (have a) rest
+падать / упасть в обморок//to faint, to swoon
+пот//sweat, perspiration
+пульс//pulse
+реабилитация//rehabilitation
+слабый//weak, feeble
+слепой//blind
+советоваться с врачом//to consult a doctor
+страдать//to suffer (from)
+у меня болит голова//I have a headache
+у меня болит горло//I have a sore throat
+у меня болит зуб//I have (a) toothache
+умирать / умереть//to die
+утешать//to comfort, to console
+чувствовать себя хорошо//to feel well / good
+лекарственные средства и прочее//medicines, etc.
+бинт//bandage
+болеутоляющее средство//painkiller
+вредный//harmful, injurious (to health)
+доза//dose
+костыль//crutch
+лекарство//medicine, drug
+лекарство от кашля//cough medicine
+лечение//(medical) treatment
+машина скорой помощи//ambulance
+операция//operation, surgery
+очки//glasses, spectacles
+отрава, яд//poison
+пациент(ка)//patient
+перевязь, повязка//sling
+пластырь//(sticking) plaster
+побочное действие//side-effect
+принимать / принять лекарство//to take (some) medicine
+медицина//medicine, medical science
+медсестра//nurse
+противозачаточная пилюля//contraceptive pill
+рентген//X-ray
+рецепт (мед.)//prescription
+снотворная таблетка//sleeping tablet / pill
+средство//remedy, cure
+таблетка//tablet, pill
+термометр//thermometer
+шприц//syringe
+хирургия//surgery
+

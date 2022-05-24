@@ -1,0 +1,115 @@
+аист//stork
+акула//shark
+антилопа//antelope
+бабочка//butterfly
+баран//ram
+барсук//badger
+белка//squirrel
+белый медведь//polar bear
+бобр//beaver
+божья коровка//ladybird
+бык//bull
+вол, бык//ox
+волк//wolf
+волнистый попугайчик//budgie
+воробей//sparrow
+ворон//raven
+ворона//crow
+гадюка//viper
+голубь//pigeon, dove
+горилла//gorilla
+горлица//turtledove
+гриф//vulture
+гусеница//caterpillar
+гусь//goose
+дикий кабан//wild boar
+дрозд//blackbird
+дятел//woodpecker
+ёж//hedgehog
+жаворонок//lark
+жираф//giraffe
+жук//beetle
+журавль//crane
+заяц//hare
+зебра//zebra
+змея//snake
+индюк//turkey
+канарейка//canary
+канюк//buzzard
+кенгуру//kangaroo
+клоп//bug
+козел//goat
+козленок//kid
+комар, москит//gnat
+корова//cow
+кот//cat
+котенок//kitten
+крокодил//crocodile
+кролик//rabbit
+крыса//rat
+кузнечик//grasshopper
+кукушка//cuckoo
+курица//hen
+куропатка//partridge
+ласточка//swallow
+лебедь//swan
+лев//lion
+летучая мышь//bat
+лисица//fox
+лось//elk
+лошадь//horse
+лягушка//frog
+медведь//bear
+моль//moth
+морская звезда//starfish
+морская свинка//guinea pig
+муравей//ant
+муха//fly
+мышь//mouse
+носорог//rhino, rhinoceros
+обезьяна//monkey
+овца//sheep
+олень//deer
+орел//eagle
+оса//wasp
+осел//donkey
+павлин//peacock
+паук//spider
+петух//cock, rooster
+пингвин//penguin
+пиявка//leech
+пони//pony
+попугай//parrot
+поросенок//pig
+пчела//bee
+рысь//lynx
+синица//titmouse
+скорпион//scorpion
+слон//elephant
+собака//dog
+сова//owl
+сокол//falcon
+соловей//nightingale
+сорока//magpie
+страус//ostrich
+таракан//cockroach
+теленок//calf
+тетерев//heath-cock
+тигр//tiger
+тюлень//seal
+улитка//snail
+утенок//duckling
+утка//duck
+фазан//pheasant
+фламинго//flamingo
+хорёк//ferret
+цапля//heron
+цыпленок//chicken
+чайка//seagull
+червь//worm
+черепаха//tortoise
+щенок//puppy
+ягненок//lamb
+ястреб//hawk
+ящерица//lizard
+

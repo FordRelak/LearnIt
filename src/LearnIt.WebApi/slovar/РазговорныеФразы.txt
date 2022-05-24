@@ -1,0 +1,29 @@
+Доброе утро.//Good morning.
+Добрый день.//Good afternoon.
+Добрый вечер.//Good evening.
+Здравствуйте.//Hello.
+Привет!//Hi!
+Рад тебя видеть.//Nice to see you!
+Как поживаешь?//How are you?
+Спасибо, прекрасно!//Fine, thanks!
+Неплохо!//Not so bad.
+Как Вас зовут?//What's your name?
+Меня зовут...//My name is...
+Спасибо.//Thank you.
+Большое спасибо.//Thank you very much..
+Не за что.//That's all right.
+Пожалуйста.//You're welcome.
+Извините.//Sorry!
+Простите.//Excuse me.
+Ничего, пожалуйста.//That's all right.
+Ничего страшного.//No harm.
+К сожалению, мне (нам) пора идти.//I'm sorry I (we) should be going.
+До свидания!//Good-bye!
+Пока!//Bye-bye!
+Увидимся.//See you.
+Счастливого пути!//Have a nice trip!
+Вы говорите по-русски?//Do you speak Russian?
+Я плохо говорю по-английски.//My English is bad.
+Говорите, пожалуйста, медленнее.//Could you speak more slowly?
+Я не понимаю.//I don't understand.
+Я понимаю.//I understand.

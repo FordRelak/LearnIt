@@ -1,0 +1,62 @@
+accompany//аккомпанировать
+accordion//аккордеон
+album//альбом
+bagpipe//волынка
+balalaika//балалайка
+ballet//балет
+band//группа
+bass//контрабас
+bassoon//фагот
+baton//дирижерская палочка
+bow//смычок
+brass instruments//медные духовые инструменты
+
+cello//виолончель
+
+chamber music//камерная музыка
+clarinet//кларнет
+classical music//классическая музыка
+compose//писать музыку
+composer//композитор
+concert//концерт
+conductor//дирижер
+cymbals//тарелки
+drum//барабан
+drum sticks//барабанные палочки
+flute//флейта
+grand piano//рояль
+guitar//гитара
+harp//арфа
+horn//рожок
+instrumental music//инструментальная музыка
+
+loudspeaker//динамик, громкоговоритель
+microphone//микрофон
+musical instruments//музыкальные инструменты
+musician//музыкант
+oboe//гобой
+opera//опера
+operetta//оперетта
+orchestra//оркестр
+organ//орган
+percussion//перкуссия, ударные инструменты
+piano//пианино
+recital//сольный концерт
+saxophone//саксофон
+single//сингл – песня, выпущенная и продаваемая без альбома
+soloist//солист
+song//песня
+sound//звук
+string instruments//струнные инструменты
+symphony//симфония
+synthesizer//синтезатор
+transcribe//записывать нотами
+trombone//тромбон
+trumpet//труба
+tuba//туба
+video (clip)//видео-клип
+viola//альт
+violin//скрипка
+virtuoso//виртуоз
+wind instruments//духовые инструменты
+

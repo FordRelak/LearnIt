@@ -1,0 +1,119 @@
+атлас//satin
+бархат//velvet
+белый//white
+бельё//underwear
+блузка//blouse
+ботинок//boot
+браслет//bracelet
+брюки//trousers
+булавка//pin
+бумажник//wallet
+воротник//collar
+вуаль//veil
+галстук//tie
+голубой//(light/pale) blue
+голый//naked, bare, nude
+грубый//coarse, rough
+губная помада//lipstick
+дамское бельё//lingerie, women's underwear
+джинсы//jeans
+длинный//long
+духи//perfume, scent
+жёлтый//yellow
+жилет//waistcoat
+завязывать / завязать//to tie, to knot
+застёгивать / застегнуть//to fasten, to do up, to button (up)
+зелёный//green
+золотистый//gold (in colour), golden
+золотой//gold, (made) of gold
+зонтик//umbrella
+игла//needle
+изнашивать / износить//to wear out
+карман//pocket
+кожа//leather
+колготки//tights
+кольцо//ring
+коричневый//brown
+короткий//short
+костюм//suit
+кошелёк//purse
+красить / покрасить//to dye
+красный//red
+кроссовки//trainers, running shoes
+купальный костюм//swimming/bathing costume, swimsuit
+куртка//jacket
+лифчик//bra
+майка//(на бретельках) tank top, undershirt
+мех//fur
+модный//fashionable, stylish
+мягкий//soft
+надевать / надеть//to put on
+нейлон//nylon
+нитка//thread
+носовой платок//handkerchief
+носок//sock
+ночная сорочка//nightdress, nightie
+обувь//footwear
+одеваться / одеться//to dress (oneself), to get dressed
+одежда
+clothes, clothing
+оранжевый//orange
+очки//glasses, spectacles
+пальто//(over)coat
+переодеваться / переодеться//to change (one's clothes), to get changed
+перчатка//glove
+пижама//(pair of) pyjamas
+плавки//swimming trunks
+платье//(woman's) dress
+
+плащ//raincoat, waterproof (coat)
+подкладка//lining
+портфель//briefcase
+просторный//loose, ample
+пуговица//button
+пуловер//pullover
+пурпурный//purple
+пятно//stain, mark, spot
+развязывать / развязать//to untie, to undo
+раздеваться / раздеться//to undress (oneself), to get undressed
+размер//size, measurement(s)
+расстёгивать / расстегнуть//to unfasten, to undo, to unbutton
+рвать//to tear, to rip
+ремень//strap; belt
+розовый//pink
+рубашка//shirt
+рукав//sleeve
+сандалия//sandal
+серебристый//silver (in colour), silvery
+серый//grey
+серьга//earring
+синий//blue
+снимать / снять//to take off
+солнцезащитные очки//sunglasses
+спица//knitting needle
+тесный//tight
+ткань//fabric, cloth, material
+трусы//underpants; knickers
+туфля//shoe; slipper
+фиолетовый//violet
+футболка//T-shirt/tee-shirt
+хлопок//cotton
+хорошо сидеть//to fit (well), to be a good fit
+цвет//colour
+цепочка//necklace, chain
+чёрный//black
+чинить / починить//to mend, to repair
+чулок//stocking
+шарф//scarf
+швейная машина//sewing machine
+шёлк//silk
+шерсть//wool
+шить/сшить//to sew
+шляпа//hat
+шнурок//(shoe)lace
+шорты//shorts
+шуба//fur coat
+элегантный//elegant
+юбка//skirt
+ювелирные изделия//jewellery
+

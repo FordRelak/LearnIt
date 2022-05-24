@@ -1,0 +1,370 @@
+absentee voter//избиратель, голосующий заочно
+absentee voting//заочное голосование
+absentee voting certificate//открепительное удостоверение для голосования
+absolute majority//абсолютное большинство
+access to media//доступ к СМИ
+accountability//подотчетность
+accreditation//аккредитация
+accredited agent (of a candidate)//аккредитованное доверенное лицо (кандидата)
+adjudication of grievances//рассмотрение жалоб
+administrative and territorial division of a subject of the Russian Federation//административно-территориальное устройство субъекта Российской Федерации
+administrative liability for infringing upon electoral rights of citizens and the right of citizens to participate in a referendum//административная ответственность за нарушение избирательных прав граждан и права граждан на участие в референдуме
+advance polling day//день досрочного голосования
+agent of a candidate, electoral association, electoral bloc//доверенное лицо кандидата, избирательного объединения, избирательного блока
+All-Russia State Television and Radio Broadcasting Company//Всероссийская государственная телевизионная и радиовещательная компания
+alternative vote//альтернативный голос
+anonymous adds, campaign materials//реклама без указания информации о рекламодателе
+application for a special ballot//заявка на получение специального избирательного бюллетеня
+assistance to voters//помощь избирателям
+attorney-general//генеральный прокурор
+australian ballot//австралийский избирательный бюллетень (бюллетень для закрытого голосования)
+automated register//система автоматической регистрации
+autonomous district / okrug (Russia)//автономный округ (РФ)
+autonomous region (Russia)//автономная область (РФ)
+ballot//Бюллетень избирательный
+ballot access//пассивное избирательное право
+ballot box//избирательный ящик, ящик для голосования
+ballot box seal//печать на ящике для избирательных бюллетеней
+ballot card voting system//система голосования избирательными бюллетенями
+ballot cast//поданный избирательный бюллетень
+ballot protection//защита бюллетеня
+bodies of local self government//органы местного самоуправления
+bodies of state power of a subject of the Russian Federation//органы государственной власти субъекта Российской Федерации
+boundaries//границы (территориальных образований для проведения выборов)
+boundaries of electoral district
+границы избирательного округа
+bribery//подкуп
+by-election
+дополнительные выборы
+campaign account//счет избирательной кампании
+campaign finance, financing of election campaigning (by candidates or parties)//финансирование избирательной кампании (кандидатами или партиями)
+campaigning//проведение избирательной/предвыборной кампании
+candidate//кандидат
+candidate list//список кандидатов
+candidate register//реестр для регистрации кандидатов
+canvassing board (US)//совет по вопросам предвыборной агитации (США)
+canvassing the vote (US)//вся процедура прохождения голоса через все стадии подсчета и передачи данных (США)
+caretaker government//правительство переходного периода (после проведения выборов)
+casting vote//голос решающий, с правом решающего голоса
+Central Election Commission of the Russian Federation (CEC of RF)//Центральная избирательная комиссия Российской Федерации (ЦИК РФ)
+certificate of being elected (Russia)//удостоверение об избрании (РФ)
+certificate of nomination//регистрация выдвижения кандидата
+challenged vote//бюллетень с неясным волеизъявлением
+challengers//претенденты
+Chamber on Informational Disputes under the President (Russia)//Палата по информационным спорам при Президенте Рф
+charter of a municipal unit//устав муниципального образования
+charter of a public association (party)//устав общественного объединения (партии)
+Charter of a subject of the Russian Federation//Устав субъекта Российской Федерации
+Chief Electoral Office (Canada)//Управление по организации и проведению выборов (Канада)
+Chief Registrar of Voters (US)//Руководитель избирательной комиссии, либо главный регистратор (США)
+citizen initiated referendum//референдум, инициируемый гражданами
+citizen participation//гражданское участие
+citizen's ID//документ, удостоверяющий личность гражданина
+clear intention test//тест для определения подлинного волеизъявления граждан
+clerk of the writs//ответственный за уведомление избирателей
+close of the poll//закрытие избирательного участка
+coalition government//коалиционное правительство
+code of conduct//кодекс поведения
+Committee on Election Legislation
+Комитет по вопросам законодательства о выборах
+competence//компетенция
+compulsory registration//обязательная регистрация
+conduct of election, election administration//проведение выборов
+conduct of propaganda at a prohibited time (administrative offence)//проведение агитации в период ее запрещения (административное правонарушение)
+consent to nomination//согласие на выдвижение (в качестве кандидата)
+constituency election commission//окружная избирательная комиссия
+constituency, district//(избирательный) округ
+Constitutional Convention//Конституционное собрание
+Constitutional Court//конституционный суд
+contribution//пожертвование / вклад
+county//1) графство (административная единица, Великобритания) 2) округ (США)
+county election board//избирательная комиссия графства / округа
+criminal liability for violation of electoral rights of citizens
+уголовная ответственность за нарушение избирательных прав граждан
+debates//дебаты
+decision of election commission, referendum commission//решение избирательной комиссии, комиссии референдума
+declaration of candidacy//заявление о выдвижении кандидатуры
+declaration of election results//объявление о результатах выборов
+declaration of withdrawal//заявление о снятии кандидатуры
+deliberate distraction, damage to propaganda printed materials (administrative offence)//умышленное уничтожение, повреждение агитационных печатных материалов (административное правонарушение)
+delimitation//определение границ (избирательных округов)
+deputy//депутат, представитель
+direct and representative democracy//прямая и представительная демократия
+direct election//прямые выборы
+direct suffrage//право на прямые выборы
+disenfranchisement, debarring//лишение избирательных прав
+dissemination of false information about a candidate (administrative offence)//распространение ложных сведений о кандидате (административное правонарушение)
+door-to-door campaigning//обход всех избирателей на дому, при агитации за кандидата
+double voting//голосование дважды (сша)
+dual candidate//кандидат, выдвигаемый по двум спискам
+Duma, State Duma of the Federal Assembly of the Russian Federation (Lower House of Parliament)//Дума, Государственная дума Федерального Собрания РФ (нижняя палата парламента)
+early election//досрочные выборы
+early voting//досрочное голосование
+elected body (agency)//выборный орган
+elected office//выборная должность
+elected official//выборное должностное лицо
+election campaign//избирательная кампания
+Election Commission of a Subject of the Russian Federation//Избирательная комиссия субъекта Российской Федерации
+election commissions//избирательные комиссии
+election constituency / district//избирательный округ
+election costs (for the budget)//расходы на проведение выборов (из бюджета)
+election court//суд, рассматривающий вопросы выборов
+election day//день выборов
+election donation//пожертвования на проведение выборов
+election enrolment center (US)//центр регистрации избирателей (США)
+election financing, election costs (Russia)//финансирование выборов, из бюджета (РФ)
+election fraud//мошенничество, нарушения на выборах
+election law//избирательное право
+election night count//подсчет голосов после закрытия избирательных участков
+election officials, election administrators//сотрудники избирательных комиссий / лица, ответственные за организацию и проведение выборов
+election propaganda, election campaigning//предвыборная агитация
+election regulations//инструкции в избирательном праве
+election returns//результаты выборов
+election system//избирательная система
+elections in the Russian Federation//выборы в Российской Федерации
+electoral association (party) (Russia)//избирательное объединение (РФ)
+electoral bloc//избирательный блок
+electoral fund of a candidate, electoral association, electoral bloc//избирательный фонд кандидата, избирательного объединения, избирательного блока
+electoral reform//реформа избирательной системы
+electoral rights of citizens//избирательные права граждан
+electorate//электорат
+electronic mass media//электронные средства массовой информации
+electronic voting system//система голосования с помощью электронных средств
+employer's denial to give a leave to participate in elections (administrative offence)//отказ работодателя в предоставлении отпуска для участия в выборах (административное правонарушение)
+equal suffrage//равное избирательное право
+exit polling//опрос проголосовавших избирателей на выходе с избирательного участка
+faction in the legislature//фракция в органе законодательной власти
+failure to submit or to publish information on vote returns or election results (administrative offence)//непредставление либо неопубликование сведений об итогах голосования или о результатах выборов (административное правонарушение)
+failure to submit or to publish reports on spending funds allocated for election administration (administrative offence)//непредставление или неопубликование отчетов о расходовании средств на подготовку и проведение выборов (административное правонарушение)
+federal bodies of state power//федеральные органы государственной власти
+federal constitutional law//федеральный конституционный закон
+Federal Election Commission, FEC (US)//Федеральная избирательная комиссия (США)
+Federal Law//федеральный закон
+Federal special-purpose program for improving legal culture of voters and election administrators in the Russian Federation//Федеральная целевая программа повышения правовой культуры избирателей и организаторов выборов в Российской Федерации
+Federation//Федерация
+Federation Council of the Federal Assembly of the Russian Federation, Upper House of Parliament//Совет Федерации Федерального Собрания РФ, верхняя палата парламента
+felony//тяжкое уголовное преступление (фелония)
+filing//регистрация, подача заявки
+final count//окончательный подсчет голосов
+financial report//финансовый отчет
+fine//штраф
+foreign (international) observer//иностранный (международный) наблюдатель
+fundraising//сбор средств
+general elections//выборы всеобщие
+general roll//полный список избирателей в избирательном округе
+gerrymandering//устраивать предвыборные махинации
+grounds for registration of voters (Russia)//основание для регистрации (учета) избирателей (РФ)
+group voting ticket (US)//групповой избирательный бюллетень (США)
+guarantees of electoral rights and the right to participate in a referendum//гарантии избирательных прав и права на участие в референдуме
+hidden advertising//скрытая реклама
+hindering a citizen of the Russian Federation from exercising his / her electoral rights or an election commission from carrying out its work (administrative offence)//воспрепятствование осуществлению гражданином Российской Федерации своих избирательных прав либо работе избирательной комиссии (административное правонарушение)
+ID of a candidate//удостоверение кандидата
+ID of a candidate's agent//удостоверение доверенного лица кандидата
+Illegal acceptance of donations by a candidate or an electoral association (administrative offence)//незаконное принятие пожертвований кандидатом либо избирательным объединением (административное правонарушение)
+Illegal voters//лица, не имеющие избирательных прав
+imitation ballot//поддельный бюллетень
+impeachment//импичмент
+incorrect ballot//бюллетень неустановленного образца / неверно заполненный бюллетень
+incumbent//должностное лицо, занимающее какую-либо должность / пост
+independent candidate//независимый кандидат
+indirect elections//непрямые / опосредованные выборы
+ineligible voters//избиратели, не обладающие избирательным правом
+informal vote//избирательный бюллетень, по которому невозможно определить волеизъявление избирателя
+information of registered candidates (lists of candidates)//информация о зарегистрированных кандидатах (списках кандидатов)
+initiative group for nominating a candidate//инициативная группа по выдвижению кандидата
+in-kind donation//пожертвования в неденежной (натуральной) форме
+international (foreign) observer / monitor//международный (иностранный) наблюдатель
+interview//интервью, беседа, собеседование, встреча,
+invalid ballot//недействительный избирательный бюллетень
+invalid ballot, disallowed vote//недействительный бюллетень / голос
+invalid elections//недействительные выборы
+invalid referendum results//недействительные результаты референдума
+judicial recount//подсчет голосов в суде
+jurisdiction//юрисдикция
+krai, land (Russia)//край (РФ)
+law of a subject of the Russian Federation//закон субъекта Российской Федерации
+laws on elections, election legislation//избирательное законодательство
+list of candidates//список кандидатов
+local authorities//местные органы власти
+local elections//местные выборы
+local referendum//местный референдум
+local self-government//местное самоуправление
+long ballot//избирательный бюллетень, предполагающий многовариантный выбор избирателя
+lower house//нижняя палата (парламента)
+majority / majoritarian electoral system//мажоритарная избирательная система
+majority government//правительство большинства
+mandate//мандат
+marking//проставление отметок
+mass media//средства массовой информации
+minority government//правительство меньшинства
+misdemeanor//мелкое преступление, судебно наказуемый поступок (мисдиминор)
+misuse of freedom of the mass media (Russia)//злоупотребление свободой средств массовой информации (РФ)
+misuse of the right to campaign//злоупотребление правом на проведение агитации
+mobile ballot box//переносной ящик для голосования
+monetary deposit//денежный залог
+multi-mandate constituency / electoral district//многомандатный избирательный округ
+multi-member constituency / electoral district//многомандатный избирательный округ
+multi-party system//многопартийная система
+multi-party talks//многопартийные переговоры
+municipal elections//муниципальные выборы
+municipal law//муниципальное право
+municipal official//муниципальный служащий
+municipal periodical//муниципальное периодическое печатное издание
+municipal service//муниципальная служба
+municipal TV and radio company//муниципальная телерадиокомпания
+municipal unit//муниципальное образование
+municipal unit territory//Территория муниципального образования
+national donation//пожертвование на общенациональные выборы
+news show (TV and radio)//информационная телерадиопрограмма
+nomination//выдвижение
+nomination day//день выдвижения кандидатов
+nomination of candidate//выдвижение кандидата
+observer / monitor//наблюдатель
+official publication of election results//официальное опубликование итогов выборов
+one-person-one-vote//один человек - один голос
+open voting//заполнение бюллетеня вне кабинок
+ordinary vote//обычный голос
+Organization for Security and Co-operation in Europe (OSCE)//Организация по безопасности и сотрудничеству в Европе (ОБСЕ)
+overseas voters//избиратели, находящиеся за рубежом
+parliamentary elections//парламентские выборы
+parties//партии
+party identification//партийная принадлежность
+party leader//партийный лидер
+party list//партийный список
+party logo//партийная символика
+party manifesto//манифест, программный документ партии
+party organizer//партийный функционер
+penalties//наказания
+periodical with state share of participation//периодическое печатное издание с государственным участием
+personation//голосование за других лиц (или голосование несколько раз)
+petition//подписной лист
+place of residence//место жительства
+plebiscite//плебисцит
+political action committee, PAC (US)//комитет в поддержку кандидата, партии (США)
+political advertisement//политическая реклама
+political party//политическая партия
+political propaganda//политическая пропаганда
+poll clerk//сотрудник участковой избирательной комиссии
+poll tax (US)//налог на голосование (США, ист.)
+polling booth//кабина для голосования
+polling station, election precinct, ward//избирательный участок
+postal votes, votes by mail//голоса, отданные по почте
+precinct election commission, polling site commission//участковая избирательная комиссия
+press-conference//пресс-конференция
+primary elections (US)//первичные выборы (США)
+principle of direct suffrage//принцип прямого избирательного права
+principle of equal suffrage//принцип равного избирательного права
+principle of universal suffrage//принцип всеобщего избирательного права
+principles of electoral law//принципы избирательного права
+production or dissemination of anonymous campaign materials (administrative offence)//изготовление или распространение анонимных агитационных материалов (административное правонарушение)
+propaganda materials, campaign materials//агитационные материалы
+proportional election system//пропорциональная избирательная система
+prosecution//судебное преследование
+protocol (minutes) of election commission//протокол избирательной комиссии
+proxy (to vote by proxy)//доверенность, доверенное лицо (передать свой голос; голосовать по доверенности)
+public (state) service//государственная служба
+public (state-owned) TV and radio company//государственная телерадиокомпания
+public association, party (Russia)//общественное объединение (партия) (РФ)
+public officials and employees//государственные должностные лица и служащие
+public servant//государственный служащий (госслужащий)
+public service announcement, PSA//социальная реклама
+qualifications of voters (US)//избирательный ценз (США, ист.)
+reappointment//повторное назначение
+recall//отзыв (должностного лица с места работы на родину: recall of an ambassador – отзыв на родину посла)
+record of votes//учет голосов
+redistricting//изменение границ избирательных округов
+referendum//референдум
+referendum ballot//бюллетень для голосования на референдуме
+referendum commissions//комиссии референдума
+referendum decision//решение референдума
+referendum fund//фонд для участия в референдуме
+referendum in a subject of the Russian Federation//референдум субъекта Российской Федерации
+referendum in the Russian Federation//референдум Российской Федерации
+referendum initiative group//инициативная группа проведения референдума
+referendum Issues//вопросы референдума
+referendum participant//участник референдума
+referendum polling station (referendum precinct)//участок референдума
+referendum propaganda//агитация по вопросам референдума
+regional bodies in charge of registration of Russian Citizens at the place of residence//органы регистрационного учета граждан Российской Федерации по месту жительства
+regional state-owned TV and radio company//региональная государственная телерадиокомпания
+registered candidate//зарегистрированный кандидат
+registration of voters//регистрация избирателей
+rejected ballot//бюллетень, признанный недействительным
+repeat election//повторные выборы
+repeat voting//повторное голосование
+representative (US Congress)//депутат, представитель в Палате представителей США
+residency//место жительства
+revocation of registration//отмена регистрации
+scheduled elections//очередные выборы
+school board (US)//школьный совет (США)
+scrutineer//доверенное лицо кандидата (инициативной группы избирателей)
+scrutiny of the polls//наблюдение на избирательном участке
+seat//место, мандат
+secret ballot//тайное голосование
+secret ballot principle//тайного голосования принцип
+signature list//подписной лист
+single mandate constituency / electoral district//избирательный округ одномандатный
+single transferable vote system//система единого передаваемого голоса (Австралия)
+single-mandate election constituency, district//одномандатный избирательный округ
+single-party government//однопартийное правительство
+special elections//внеочередные выборы
+special interest group//группа особых интересов
+spoiled ballot//испорченный бюллетень
+state//Штат (США), государство
+The State Automated System “Vybory” of the Russian Federation//система ГАС «Выборы», Государственная автоматизированная система Российской Федерации «Выборы» (ГАС «Выборы»)
+state election board (US)//избирательная комиссия штата (США)
+status of candidates//статус кандидатов
+status of election commissioners//статус членов избирательных комиссий
+status of registered candidates//статус зарегистрированных кандидатов
+subjects of the Russian Federation//субъекты Российской Федерации
+Supervision and Auditing Service (Russia)//Контрольно-ревизионная служба (РФ)
+Supreme Court//Верховный Суд
+system administrator of election commission information center (Russia)//системный администратор информационного центра избирательной комиссии (РФ)
+tabulating machines//автоматические средства для подсчета голосов
+tabulation of votes, vote count//подсчет голосов
+tactical voting (UK)//тактическое голосование (голосование за кандидата, которого избиратель не поддерживает, с целью заблокировать прохождение другого кандидата) (Великобритания)
+tally//итоговое число, итог, подсчет
+tally sheets//таблицы с результатами выборов
+territorial election commission//территориальная избирательная комиссия
+territory//административно-территориальное образование
+the right to participate in referendum//право на участие в референдуме
+the right to vote//(активное) избирательное право, право голоса
+the right to vote, voting right//(активное) избирательное право
+threshold//процентный барьер (порог)
+to challenge election results//опротестовать результаты выборов
+to declare elections invalid//признавать выборы недействительными
+to issue ballots to citizens to enable them to vote for other individuals (administrative offence)//выдача гражданам избирательных бюллетеней (бюллетеней для голосования) в целях предоставления им возможности голосования за других лиц (административное правонарушение)
+to set election//назначить выборы
+to set referendum//назначить референдум
+transparency//открытость, прозрачность
+turnout//явка
+undue influence//давление на избирателей
+universal suffrage//всеобщее избирательное право, всеобщее право голоса
+unmarked ballot//незаполненный избирательный бюллетень
+unregistered political party//незарегистрированная политическая партия
+upper house//верхняя палата (парламента)
+vacancies in office//незанятые выборные должности, вакансии
+violation of the right of a citizen to review voter lists (administrative offence)//нарушение права граждан на ознакомление со списком избирателей (административное правонарушение)
+violation of the rights of a member of election commission / observer or foreign (international) observer (administrative offence)//нарушение прав члена избирательной комиссии, наблюдателя или иностранного (международного) наблюдателя (административное правонарушение)
+violation of the terms for election campaigning in mass media (administrative offence)//нарушение условий проведения предвыборной агитации через средства массовой информации (административное правонарушение)
+vote of confidence//вотум доверия
+vote of no confidence//вотум недоверия
+vote recount//повторный подсчет голосов
+vote returns//итоги голосования
+voter//избиратель
+voter education//просветительская работа с избирателями
+voter registration//регистрация (учет) избирателей
+voter turnout//явка избирателей
+voters' list//список избирателей
+voting card//карточка для голосования
+voting machines//автоматические средства для голосования
+voting marks//отметки в избирательном бюллетене
+voting outside the voting premises//голосование вне помещения для голосования
+voting places / facilities//места для голосования
+voting premises//помещение для голосования
+voting qualification//избирательный ценз
+voting system//система голосования
+writ//повестка (уведомление)
+write-in ballot//бюллетень, предполагающий внесение избирателями своих кандидатов (вопросов референдума)
+write-in candidates//кандидаты, вписанные в бюллетень
+

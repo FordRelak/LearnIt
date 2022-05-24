@@ -1,0 +1,93 @@
+цветы//flowers
+азалия//azalea
+алоэ//aloe
+анютины глазки//pansies
+астра//aster
+бархатец//African marigold
+бегония//begonia
+букет//bouquet
+бутон розы//rosebud
+василёк//cornflower
+вербена//verbena
+вьюнок//convolves (convolvulus)
+гвоздика//carnation
+георгин//dahlia
+герань//geranium
+гербера//herbera
+гиацинт//hyacinth
+гладиолус//gladiolus
+глициния//glycinia
+гортензия//hydrangea
+дельфиниум//delphinium
+Иван-да-марья//cow-wheat
+иван-чай, кипрей//willow herb
+икебана//ikebana
+ирис//iris
+каланхоэ//kalanchoe
+календула//calendula, marigold
+камелия//camellia
+камыш//rush, reed
+канна//cannee
+колокольчик//bluebell (harebell, campanula)
+комнатный цветок//pot flower
+крапива//stinging-nettle
+крокус//crocus
+кувшинка//(yellow) water-lily
+купальница//double buttercup, globeflower
+лаванда//lavender
+ландыш//lily-of-the-valley
+лебеда//goose-foot
+левкой//gillyflower
+лилия//lily
+лилия (водяная)//water lily
+львиный зев//snap-dragon
+люпин//lupine
+лютик//buttercup, yellowcup
+мак//poppy
+мальва//holly-hox
+маргаритка//daisy
+медуница//lung-wort
+мимоза//mimosa, acacia
+молочай//milkweed
+нарцисс (белый)//narcissus
+нарцисс (жёлтый)//daffodil
+настурция//nasturtium, Indian cress
+незабудка//forget-me-not
+ноготок//marigold
+одуванчик//dandelion
+орхидея//orchid
+первоцвет//cowslip
+петунья//petunia
+пион//peony
+подорожник//plantain
+подснежник//snowdrop
+подсолнечник//sunflower
+резеда//mignonette
+репей, лопух//burdock
+рододендрон//rhododendron
+роза//rose
+ромашка//daisy
+ромашка (лечебная)//chamomile, camomile
+сажать (цветы)//plant
+сенполия//saintpaulia
+сережка (соцветие)//catkin
+спатифиллум//spathiphyllum
+сурепка//winter-cress
+табак//Missouri tobacco
+тростник//cane
+тысячелистник//milfoil
+тюльпан//tulip
+удобрять//fertilize, nourish
+фиалка//violet
+фиалка альпийская//cyclamen
+фикус//ficus, rubber plant
+флокс//phlox
+фуксия//fuchsia
+хоста//hosta
+хризантема//chrysanthemum
+цвести//bloom, blossom
+цикламен//cyclamen
+цикорий//chicory
+цинния//cynia
+шалфей//sage
+эдельвейс//edelweiss
