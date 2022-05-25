@@ -1,5 +1,6 @@
 ﻿using LearnIt.Domain;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 using System.Reflection;
 
 namespace LearnIt.EF
@@ -17,6 +18,16 @@ namespace LearnIt.EF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
+
+        public void InitializePostgresUuidExtension()
+        {
+            using var npgsqlConnection = new NpgsqlConnection(Database.GetConnectionString());
+            npgsqlConnection.Open();
+
+            using var npgsqlCommand = npgsqlConnection.CreateCommand();
+            npgsqlCommand.CommandText = "CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";";
+            npgsqlCommand.ExecuteNonQuery();
         }
     }
 }

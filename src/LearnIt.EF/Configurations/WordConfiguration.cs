@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace LearnIt.EF.Configurations
 {
-    public class WordCategory : IEntityTypeConfiguration<Word>
+    public class WordConfiguration : IEntityTypeConfiguration<Word>
     {
         public void Configure(EntityTypeBuilder<Word> builder)
         {

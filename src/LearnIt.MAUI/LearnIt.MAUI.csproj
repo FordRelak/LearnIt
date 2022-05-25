@@ -51,6 +51,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Models\**" />
+	  <Compile Remove="Models\**" />
+	  <Content Remove="Models\**" />
+	  <EmbeddedResource Remove="Models\**" />
+	  <MauiXaml Remove="Models\**" />
+	  <None Remove="Models\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiFont Remove="Resources\Fonts\Montserrat-Italic-VariableFont_wght.ttf" />
 	  <MauiFont Remove="Resources\Fonts\Montserrat-VariableFont_wght.ttf" />
 	</ItemGroup>
@@ -72,17 +81,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Refit" Version="6.3.2" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Data\" />
-	  <Folder Include="Models\" />
 	  <Folder Include="wwwroot\images\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\LearnIt.Common\LearnIt.Common.csproj" />
+	  <ProjectReference Include="..\LearnIt.WebApi.Queries\LearnIt.WebApi.Queries.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿@page "/"
 @page "/StartSelectCategory"
+@using LearnIt.DTO
 
 <style>
 
@@ -52,11 +53,11 @@
 
     <div class="box p-3 flex-grow-1">
 
-        @foreach(var i in ids)
+        @foreach(var category in categoryDtos)
         {
-            <input type="checkbox" hidden id="@i" name="@i" @onchange="(e) => {OnCheckBoxClicked(i, e);}" />
-            <label for="@i" class="category">
-                Категория_@i
+            <input type="checkbox" hidden id="@category.Id" name="@category.Id" @onchange="(e) => {OnCheckBoxClicked(category.Id, e);}" />
+            <label for="@category.Id" class="category">
+                @category.Name
             </label>
         }
 
@@ -69,10 +70,10 @@
 </section>
 
 @code {
-    private int[] ids = new[] { 1, 2, 3, 4, 5, 6 };
-    private List<int> _startCategoryIds = new();
+    private ICollection<ShortCategoryDto> categoryDtos = new List<ShortCategoryDto>();
+    private List<long> _startCategoryIds = new();
 
-    void OnCheckBoxClicked(int id, object e)
+    void OnCheckBoxClicked(long id, object e)
     {
         if(_startCategoryIds.Contains(id))
         {
@@ -82,6 +83,11 @@
         {
             _startCategoryIds.Add(id);
         }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        categoryDtos = await ICategoryApi.GetCategories();
     }
 
     void GoToNextPage()

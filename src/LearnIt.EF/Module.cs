@@ -29,6 +29,8 @@ namespace LearnIt.EF
             var context = scope.ServiceProvider.GetRequiredService<LIContext>();
             var migrations = context.Database.GetPendingMigrations();
 
+            context.InitializePostgresUuidExtension();
+
             if(migrations.Any())
             {
                 await context.Database.MigrateAsync();

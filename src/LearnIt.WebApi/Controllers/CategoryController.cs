@@ -1,5 +1,4 @@
-﻿using LearnIt.Domain;
-using LearnIt.Services.Interfaces;
+﻿using LearnIt.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearnIt.WebApi.Controllers
@@ -23,7 +22,9 @@ namespace LearnIt.WebApi.Controllers
         }
 
         [HttpGet("{id:long}")]
-        public async Task<IActionResult> GetCategoriesAsync(long id, CancellationToken cancellationToken = default)
+        public async Task<IActionResult> GetCategoriesAsync(
+            [FromRoute] long id,
+            CancellationToken cancellationToken = default)
         {
             var category = await _categoryService.GetCategoryAsync(id, cancellationToken);
 

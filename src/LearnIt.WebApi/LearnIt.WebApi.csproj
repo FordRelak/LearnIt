@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -15,6 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LearnIt.DTO.Mapping\LearnIt.DTO.Mapping.csproj" />
+    <ProjectReference Include="..\LearnIt.DTO\LearnIt.DTO.csproj" />
     <ProjectReference Include="..\LearnIt.EF\LearnIt.EF.csproj" />
     <ProjectReference Include="..\LearnIt.Services\LearnIt.Services.csproj" />
   </ItemGroup>

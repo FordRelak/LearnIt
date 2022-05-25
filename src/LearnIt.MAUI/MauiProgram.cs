@@ -1,5 +1,6 @@
 ﻿using LearnIt.MAUI.Constants;
 using LearnIt.MAUI.Services;
+using LearnIt.WebApi.Queries;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace LearnIt.MAUI
@@ -7,7 +8,7 @@ namespace LearnIt.MAUI
     public static class MauiProgram
     {
         public static string BaseAddress =
-            DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5114" : "http://localhost:5114";
+            DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5114/api" : "http://localhost:5114/api";
 
         public static MauiApp CreateMauiApp()
         {
@@ -46,6 +47,8 @@ namespace LearnIt.MAUI
             builder.Services.TryAddSingleton<LocalStorageService>();
             builder.Services.TryAddSingleton<LocalCategoryService>();
             builder.Services.TryAddSingleton<ConfigurationService>();
+
+            builder.Services.ConfigureRefit(BaseAddress);
         }
     }
 }

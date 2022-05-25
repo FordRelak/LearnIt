@@ -1,5 +1,6 @@
 ﻿@using System.Net.Http
 @using LearnIt.MAUI.Services
+@using LearnIt.WebApi.Queries
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Routing
 @using Microsoft.AspNetCore.Components.Web
@@ -11,3 +12,5 @@
 @inject NavigationManager NavigationManager
 @inject ConfigurationService ConfigurationService
 @inject LocalCategoryService LocalCategoryService
+
+@inject ICategoryApi ICategoryApi

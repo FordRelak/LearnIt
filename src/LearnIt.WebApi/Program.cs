@@ -1,3 +1,4 @@
+using LearnIt.DTO.Mapping;
 using LearnIt.EF;
 using LearnIt.Services;
 using System.Text.Json.Serialization;
@@ -20,6 +21,7 @@ namespace LearnIt.WebApi
 
             builder.Services.ConfigureEF(builder.Configuration);
             builder.Services.ConfigureServices();
+            builder.Services.ConfigureMapper();
 
             var app = builder.Build();
 
