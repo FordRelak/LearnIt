@@ -11,13 +11,21 @@
         {
             Preferences.Set(key, value);
         }
+        public void Add(string key, int value)
+        {
+            Preferences.Set(key, value);
+        }
 
         public string Get(string key, string defaultValue = "")
         {
             return Preferences.Get(key, defaultValue);
         }
 
-        public bool Get(string key, bool defaultValue = false)
+        public bool GetBool(string key, bool defaultValue = false)
+        {
+            return Preferences.Get(key, defaultValue);
+        }
+        public int GetInt(string key, int defaultValue = 0)
         {
             return Preferences.Get(key, defaultValue);
         }

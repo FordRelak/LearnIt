@@ -16,6 +16,10 @@ namespace LearnIt.WebApi.Queries
                 .AddRefitClient<ICategoryApi>(refitSettings)
                 .ConfigureHttpClient(x => x.BaseAddress = new Uri(baseAddress));
 
+            services
+                .AddRefitClient<IDeviceApi>(refitSettings)
+                .ConfigureHttpClient(x => x.BaseAddress = new Uri(baseAddress));
+
             return services;
         }
     }

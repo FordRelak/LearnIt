@@ -107,4 +107,9 @@
             Mode = 1;
         }
     }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await DeviceService.SaveStartSettings();
+    }
 }

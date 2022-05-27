@@ -46,6 +46,8 @@ namespace LearnIt.MAUI
 
             builder.Services.TryAddSingleton<LocalStorageService>();
             builder.Services.TryAddSingleton<LocalCategoryService>();
+            builder.Services.TryAddSingleton<LocalWordsService>();
+            builder.Services.TryAddSingleton<DeviceService>();
             builder.Services.TryAddSingleton<ConfigurationService>();
 
             builder.Services.ConfigureRefit(BaseAddress);

@@ -13,30 +13,5 @@ namespace LearnIt.WebApi.Controllers
         {
             _wordService = wordService;
         }
-
-        [HttpGet("new")]
-        public async Task<IActionResult> GetNewWords(
-            [FromQuery] long[] categoryIds,
-            int numberOfWords,
-            CancellationToken cancellationToken = default)
-        {
-            return Ok(await _wordService.GetNewWordsForLearn(
-                categoryIds,
-                numberOfWords,
-                cancellationToken));
-        }
-
-        [HttpGet("new/{deviceId}")]
-        public async Task<IActionResult> GetNewWordsForDevice(
-            [FromRoute] string deviceId,
-            [FromQuery] long[] categoryIds,
-            int numberOfWords,
-            CancellationToken cancellationToken = default)
-        {
-            return Ok(await _wordService.GetNewWordsForLearn(
-                categoryIds,
-                numberOfWords,
-                cancellationToken));
-        }
     }
 }

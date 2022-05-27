@@ -20,18 +20,5 @@ namespace LearnIt.WebApi.Controllers
             var categories = await _categoryService.GetCategoriesAsync(cancellationToken);
             return Ok(categories);
         }
-
-        [HttpGet("{id:long}")]
-        public async Task<IActionResult> GetCategoriesAsync(
-            [FromRoute] long id,
-            CancellationToken cancellationToken = default)
-        {
-            var category = await _categoryService.GetCategoryAsync(id, cancellationToken);
-
-            if(category is null)
-                return NotFound();
-
-            return Ok(category);
-        }
     }
 }

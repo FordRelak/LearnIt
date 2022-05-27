@@ -10,6 +10,7 @@ namespace LearnIt.Services
         {
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IWordService, WordService>();
+            services.AddScoped<IDeviceService, DeviceService>();
 
             return services;
         }

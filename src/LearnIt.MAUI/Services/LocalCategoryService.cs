@@ -15,7 +15,7 @@ namespace LearnIt.MAUI.Services
 
         public bool IsSkipStartPage()
         {
-            return _localStorageService.Get(LocalStorageConstants.IS_SKIP_START_PAGE_KEY, false);
+            return _localStorageService.GetBool(LocalStorageConstants.IS_SKIP_START_PAGE_KEY);
         }
 
         public void InsertCategoryIds(long[] newIds)

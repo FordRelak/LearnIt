@@ -7,17 +7,6 @@ namespace LearnIt.Specifications.Words
     {
         public GetRandomWords(
             long[] categoryIds,
-            int numberOfWords)
-        {
-            var random = new Random();
-            Query.Include(w => w.Category)
-                .Where(w => categoryIds.Contains(w.Category.Id))
-                .OrderBy(w => Guid.NewGuid())
-                .Take(numberOfWords);
-        }
-
-        public GetRandomWords(
-            long[] categoryIds,
             long[] exceptWordIds,
             int numberOfWords)
         {
