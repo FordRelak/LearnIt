@@ -10,7 +10,9 @@ namespace LearnIt.Specifications.Users
             Query
                 .Where(u => u.DeviceId == deviceId)
                 .Include(u => u.SelectedCategories)
-                .Include(u => u.LearnedWords);
+                    .ThenInclude(sc => sc.Category)
+                .Include(u => u.Words)
+                    .ThenInclude(lw => lw.Word);
         }
     }
 }

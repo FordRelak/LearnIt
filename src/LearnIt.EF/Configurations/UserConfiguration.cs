@@ -13,7 +13,7 @@ namespace LearnIt.EF.Configurations
             builder.HasIndex(u => u.DeviceId).IsUnique();
 
             builder
-                .HasMany(u => u.LearnedWords)
+                .HasMany(u => u.Words)
                 .WithOne(uw => uw.User);
 
             builder

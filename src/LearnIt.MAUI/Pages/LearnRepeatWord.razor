@@ -1,4 +1,4 @@
-﻿@page "/LearnNewWord"
+﻿@page "/LearnRepeatWord"
 @using LearnIt.DTO
 
 <style>
@@ -144,10 +144,10 @@
 
     <div class="c-nav">
         <div class="c-nav-wrapper">
-            <div class="c-nav-item c-nav-item-active">
-                <span class="c-nav-text-active">Новые слова</span>
-            </div>
             <div class="c-nav-item">
+                <span class="c-nav-text">Новые слова</span>
+            </div>
+            <div class="c-nav-item c-nav-item-active">
                 <span class="c-nav-text-active">Повтор</span>
             </div>
         </div>
@@ -162,7 +162,7 @@
         <div class="pt-2 word-main">
             <div class="main-learn-word flex-1">
                 <div class="main-learn-word-title">
-                    Заучивание нового слова
+                    Повторение
                 </div>
                 @if(CurrentWord != null)
                 {
@@ -188,11 +188,10 @@
             </div>
             <hr />
             <div class="button-selector row px-2 pb-4">
-                <div class="col" @ontouchstart="OnSecTouchStart" @ontouchend="OnSecTouchEnd" @onclick="SaveToRepeatInNextTime">
+                <div class="col" @ontouchstart="OnSecTouchStart" @ontouchend="OnSecTouchEnd" @onclick="SaveToLearnedWords">
                     <div class="suc-but h-100">
                         <span>
-                            Отложить слово
-                            для повтора
+                            Выучил это слово
                         </span>
                     </div>
                 </div>
@@ -218,11 +217,11 @@
     private ShortWordDto CurrentWord { get; set; }
     private List<ShortWordDto> Words { get; set; } = new List<ShortWordDto>();
     private int WordIndex = 0;
-    private List<ShortWordDto> WordsToRepeatNextTime = new List<ShortWordDto>();
+    private List<ShortWordDto> LearnedWords = new List<ShortWordDto>();
 
     protected override async Task OnInitializedAsync()
     {
-        Words = (await DeviceService.GetNewWordsToLearn()).ToList();
+        Words = (await DeviceService.GetRepeatWordsForLearn()).ToList();
         CurrentWord = Words.First();
     }
 
@@ -239,14 +238,14 @@
         CurrentWord = Words[WordIndex];
     }
 
-    async Task SaveToRepeatInNextTime()
+    async Task SaveToLearnedWords()
     {
-        WordsToRepeatNextTime.Add(CurrentWord);
+        LearnedWords.Add(CurrentWord);
         WordIndex++;
 
         if(WordIndex >= Words.Count)
         {
-            await DeviceService.SaveWordsToRepeat(WordsToRepeatNextTime.Select(w => w.Id).ToArray());
+            await DeviceService.SaveLearnedWords(LearnedWords.Select(w => w.Id).ToArray());
             NavigationManager.NavigateTo("/main");
             return;
         }

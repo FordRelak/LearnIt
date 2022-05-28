@@ -4,5 +4,6 @@
     {
         public string DeviceId { get; set; }
         public int NumberOfWords { get; set; }
+        public long[] SelectedCategoryIds { get; set; }
     }
 }

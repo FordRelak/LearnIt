@@ -1,4 +1,5 @@
 ﻿@page "/main"
+@using LearnIt.DTO
 
 <style>
     .bg-blindsky {
@@ -48,7 +49,7 @@
 
     <div class="row flex-column gy-3">
         <div class="col-12">
-            <a href="/SelectCategory">
+            <a href="/StartSelectCategory">
                 <div class="menu bg-blindsky mt-2">
                     <span class="text white">Мои категории</span>
                 </div>
@@ -62,9 +63,11 @@
             </a>
         </div>
         <div class="col-12">
-            <div class="menu">
-                <span class="text">Повторить изученное</span>
-            </div>
+            <a href="/LearnRepeatWord">
+                <div class="menu">
+                    <span class="text">Повторить изученное</span>
+                </div>
+            </a>
         </div>
         <div class="col-12">
             <div class="menu">
@@ -78,14 +81,16 @@
     </div>
 
     <div class="pt-4 w-100">
-        <div class="d-flex align-items-baseline block block-up">
-            <span>Выучено сегодня</span>
-            <span class="ms-3">0/10</span>
-            <img class="ms-1" src="/images/edit2.svg" />
-        </div>
+        <a href="/ChooseWordPerLearn">
+            <div class="d-flex align-items-baseline block block-up">
+                <span>Выучено сегодня</span>
+                <span class="ms-3"> / @UserInfo.NumberOfWords</span>
+                <img class="ms-1" src="/images/edit2.svg" />
+            </div>
+        </a>
         <div class="d-flex align-items-baseline block block-down">
             <span>Выучено всего</span>
-            <span class="ms-3">666</span>
+            <span class="ms-3">@UserInfo.LearnedWords</span>
         </div>
     </div>
 
@@ -100,6 +105,8 @@
 
 @code {
     private byte Mode { get; set; } = 1;
+    private UserInfoDto UserInfo { get; set; }
+
     void OnButtonClick()
     {
         if(++Mode > 3)
@@ -111,5 +118,6 @@
     protected override async Task OnInitializedAsync()
     {
         await DeviceService.SaveStartSettings();
+        UserInfo = await DeviceService.GetUserInfo();
     }
 }

@@ -55,7 +55,21 @@
 
         @foreach(var category in categoryDtos)
         {
-            <input type="checkbox" hidden id="@category.Id" name="@category.Id" @onchange="(e) => {OnCheckBoxClicked(category.Id, e);}" />
+            if(IsSelected(category.Id))
+            {
+                <input checked
+               type="checkbox"
+               hidden id="@category.Id"
+               name="@category.Id"
+               @onchange="(e) => {OnCheckBoxClicked(category.Id, e);}" />
+            }
+            else
+            {
+                <input type="checkbox"
+               hidden id="@category.Id"
+               name="@category.Id"
+               @onchange="(e) => {OnCheckBoxClicked(category.Id, e);}" />
+            }
             <label for="@category.Id" class="category">
                 @category.Name
             </label>
@@ -85,9 +99,15 @@
         }
     }
 
+    bool IsSelected(long categoryId)
+    {
+        return _startCategoryIds.Contains(categoryId);
+    }
+
     protected override async Task OnInitializedAsync()
     {
         categoryDtos = await ICategoryApi.GetCategories();
+        _startCategoryIds = LocalCategoryService.GetCategoryIds().ToList();
     }
 
     void GoToNextPage()

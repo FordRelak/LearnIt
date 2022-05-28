@@ -13,7 +13,7 @@ namespace LearnIt.Specifications.Words
             var random = new Random();
             Query.Include(w => w.Category)
                 .Where(w => categoryIds.Contains(w.Category.Id))
-                .Where(w => !exceptWordIds.Contains(w.Category.Id))
+                .Where(w => !exceptWordIds.Contains(w.Id))
                 .OrderBy(w => Guid.NewGuid())
                 .Take(numberOfWords);
         }

@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.Specifications", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.Services", "src\LearnIt.Services\LearnIt.Services.csproj", "{827172C8-3CDB-4EC3-9271-06C42CD36FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.DTO", "src\LearnIt.DTO\LearnIt.DTO.csproj", "{F1E81A21-ADD7-44BF-BD3A-0FDF9E7BA735}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.DTO", "src\LearnIt.DTO\LearnIt.DTO.csproj", "{F1E81A21-ADD7-44BF-BD3A-0FDF9E7BA735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.DTO.Mapping", "src\LearnIt.DTO.Mapping\LearnIt.DTO.Mapping.csproj", "{6ED8C59A-716B-468B-B696-CB449E2372C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.DTO.Mapping", "src\LearnIt.DTO.Mapping\LearnIt.DTO.Mapping.csproj", "{6ED8C59A-716B-468B-B696-CB449E2372C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.WebApi.Queries", "src\LearnIt.WebApi.Queries\LearnIt.WebApi.Queries.csproj", "{8DEF2CF4-C4D8-4B97-93C0-84F49855EA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.WebApi.Queries", "src\LearnIt.WebApi.Queries\LearnIt.WebApi.Queries.csproj", "{8DEF2CF4-C4D8-4B97-93C0-84F49855EA93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

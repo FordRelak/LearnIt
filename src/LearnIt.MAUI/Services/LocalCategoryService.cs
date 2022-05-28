@@ -20,11 +20,14 @@ namespace LearnIt.MAUI.Services
 
         public void InsertCategoryIds(long[] newIds)
         {
-            string idsFromStorage = _localStorageService.Get(LocalStorageConstants.SELECTED_CATEGORIES_KEY, "");
-            var oldIds = JsonSerializeExtension.TryDeserializeArray<long>(idsFromStorage);
-            var ids = newIds.Union(oldIds).OrderBy(x => x);
-            var json = JsonSerializer.Serialize(ids);
+            var json = JsonSerializer.Serialize(newIds);
             _localStorageService.Add(LocalStorageConstants.SELECTED_CATEGORIES_KEY, json);
+        }
+
+        public long[] GetCategoryIds()
+        {
+            var json = _localStorageService.Get(LocalStorageConstants.SELECTED_CATEGORIES_KEY);
+            return JsonSerializeExtension.TryDeserializeArray<long>(json);
         }
 
         public void SetSkipStartPage()
