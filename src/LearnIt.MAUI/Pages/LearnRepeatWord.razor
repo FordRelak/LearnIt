@@ -113,10 +113,17 @@
     }
 
     .suc-but {
-        background: @(setBackSuc ? "#60EE99" : "none");
+        background: none;
         border-radius: 10px;
         padding: 8px 12px;
-        color: @(setBackSuc ? "white" : "black");
+        color: black;
+    }
+
+    .suc-but-active{
+        background: #60EE99;
+        color: white;
+        border-radius: 10px;
+        padding: 8px 12px;
     }
 
     .button-selector {
@@ -133,10 +140,17 @@
     }
 
     .den-but {
-        background: @(setBackDen ? "#FF8282" : "none");
+        background: none;
         border-radius: 10px;
         padding: 8px 12px;
-        color: @(setBackDen ? "white" : "black");
+        color: black;
+    }
+
+    .den-but-active{
+        background: #FF8282;
+        color: white;
+        border-radius: 10px;
+        padding: 8px 12px;
     }
 </style>
 
@@ -212,8 +226,8 @@
 
 @code {
     private bool isShowOriginal { get; set; }
-    private bool setBackDen { get; set; }
-    private bool setBackSuc { get; set; }
+    private string setBackDenClass = "den-but";
+    private string setBackSucClass = "suc-but";
     private ShortWordDto CurrentWord { get; set; }
     private List<ShortWordDto> Words { get; set; } = new List<ShortWordDto>();
     private int WordIndex = 0;
@@ -260,21 +274,21 @@
 
     void OnDenTouchStart()
     {
-        setBackDen = true;
+        setBackDenClass = "den-but-active";
     }
 
     void OnDenTouchEnd()
     {
-        setBackDen = false;
+        setBackDenClass = "den-but";
     }
 
     void OnSecTouchStart()
     {
-        setBackSuc = true;
+        setBackSucClass = "suc-but-active";
     }
 
     void OnSecTouchEnd()
     {
-        setBackSuc = false;
+        setBackSucClass = "suc-but";
     }
 }

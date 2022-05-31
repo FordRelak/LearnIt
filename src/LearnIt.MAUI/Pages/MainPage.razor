@@ -93,26 +93,19 @@
             <span class="ms-3">@UserInfo.LearnedWords</span>
         </div>
     </div>
-
-    @if(ConfigurationService.IsDevelopment())
-    {
-        <button type="button" @onclick="OnButtonClick">click</button>
-    }
-
 </section>
 
-<BottomNavBar Mode="@Mode"></BottomNavBar>
+<button type="button" @onclick="Gogo">click</button>
+
+<BottomNavBar Mode="1"></BottomNavBar>
 
 @code {
-    private byte Mode { get; set; } = 1;
-    private UserInfoDto UserInfo { get; set; }
+    private UserInfoDto UserInfo { get; set; } = new();
 
-    void OnButtonClick()
+    void Gogo()
     {
-        if(++Mode > 3)
-        {
-            Mode = 1;
-        }
+        Shell.Current.GoToAsync($"//dictionary");
+        
     }
 
     protected override async Task OnInitializedAsync()
