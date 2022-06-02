@@ -13,5 +13,11 @@ namespace LearnIt.WebApi.Controllers
         {
             _wordService = wordService;
         }
+
+        [HttpGet("search")]
+        public async Task<IActionResult> GetWordBySearch([FromQuery] string searchWord, CancellationToken cancellationToken = default)
+        {
+            return Ok(await _wordService.GetWordBySearch(searchWord, cancellationToken));
+        }
     }
 }

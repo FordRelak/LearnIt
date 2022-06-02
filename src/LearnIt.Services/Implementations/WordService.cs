@@ -3,7 +3,6 @@ using LearnIt.Domain;
 using LearnIt.DTO;
 using LearnIt.EF;
 using LearnIt.Services.Interfaces;
-using LearnIt.Specifications.Users;
 using LearnIt.Specifications.Words;
 
 namespace LearnIt.Services.Implementations
@@ -25,6 +24,12 @@ namespace LearnIt.Services.Implementations
             _wordRepository = wordRepository;
             _categoryRepository = categoryRepository;
             _userRepository = userRepository;
+        }
+
+        public async Task<ShortWordDto[]> GetWordBySearch(string searchWord, CancellationToken cancellationToken)
+        {
+            var words = await _wordRepository.ListAsync(new GetWords(searchWord), cancellationToken);
+            return _mapper.Map<ShortWordDto[]>(words);
         }
     }
 }

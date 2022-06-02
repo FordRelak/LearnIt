@@ -148,6 +148,20 @@
         line-height: 20px;
         color: #444444;
     }
+
+    .undo-button {
+        align-self: center;
+        padding-left: 5px;
+    }
+
+        .undo-button span {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #1384FF;
+        }
 </style>
 
 <section class="d-flex flex-column px-4">
@@ -155,66 +169,74 @@
         <h2 class="mt-3 text">Словарь</h2>
     </div>
 
-    <div class="search">
-        <div class="search-icon">
-            <img src="/images/lupa.svg" />
+    <div class="d-flex">
+        <div class="search w-100">
+            <div class="search-icon">
+                <img src="/images/lupa.svg" />
+            </div>
+            <div class="search-input">
+                <input @bind="InputValue" type="text" placeholder="Поиск" @onfocusin="OnFocusInInput" @onfocusout="OnFocusOutInput" />
+            </div>
         </div>
-        <div class="search-input">
-            <input type="text" placeholder="Поиск" @onfocusin="OnFocusInInput" @onfocusout="OnFocusOutInput" />
+
+        @if(!isShowNav)
+        {
+            <div class="undo-button" @onclick="OnUndoClick">
+                <span>Отмена</span>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="d-flex flex-column px-4 flex-1 mt-4 @SearchDisplayClass">
+    <div class="flex-1 search-result-block">
+        @foreach(var word in Words)
+        {
+            <div class="search-result">
+                <div class="original-text">@word.OriginalText</div>
+                <div class="translated-text">@word.TranslatedText</div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="d-flex flex-column px-4 @CategoryDisplayClass">
+    <div class="options">
+        <div class="option">
+            <div class="option-block"></div>
+            <div class="option-text">Добавить категорию</div>
+        </div>
+        <div class="option">
+            <div class="option-block"></div>
+            <div class="option-text">Мои слова</div>
         </div>
     </div>
 </section>
 
-@if(isSearchView)
-{
-    <section class="d-flex flex-column px-4 flex-1 mt-4">
-        <div class="flex-1 search-result-block">
-            <div class="search-result">
-                <div class="original-text">Слово</div>
-                <div class="translated-text">Перевод</div>
-            </div>
-        </div>
-    </section>
-}
-else
-{
-    <section class="d-flex flex-column px-4">
-        <div class="options">
-            <div class="option">
-                <div class="option-block"></div>
-                <div class="option-text">Добавить категорию</div>
-            </div>
-            <div class="option">
-                <div class="option-block"></div>
-                <div class="option-text">Мои слова</div>
-            </div>
-        </div>
-    </section>
+<section class="flex-1 d-flex flex-column position-relative @CategoryDisplayClass">
+    <div class="category-block px-4 pt-4">
 
-    <section class="flex-1 d-flex flex-column position-relative">
-        <div class="category-block px-4 pt-4">
-
-            <div>
-                <h2 class="categories-title">Категории</h2>
-            </div>
-
-            <div class="category-list-block">
-                @foreach(var category in categories)
-                {
-                    <a href="/">
-                        <div class="category-name">
-                            @category.Name
-                        </div>
-                    </a>
-                }
-            </div>
+        <div>
+            <h2 class="categories-title">Категории</h2>
         </div>
 
-        <div class="image-add-word">
-            <img src="/images/addWord.svg" />
+        <div class="category-list-block">
+            @foreach(var category in categories)
+            {
+                <a href="/">
+                    <div class="category-name">
+                        @category.Name
+                    </div>
+                </a>
+            }
         </div>
-    </section>
-}
+    </div>
+
+    <div class="image-add-word">
+        <img src="/images/addWord.svg" />
+    </div>
+</section>
+
 @if(isShowNav)
 {
     <BottomNavBar Mode="2"></BottomNavBar>
@@ -223,7 +245,10 @@ else
 @code {
     private bool isShowNav = true;
     private ShortCategoryDto[] categories = Array.Empty<ShortCategoryDto>();
-    private bool isSearchView = false;
+    private string CategoryDisplayClass => isShowNav ? "" : "d-none";
+    private string SearchDisplayClass => !isShowNav ? "" : "d-none";
+    private ShortWordDto[] Words { get; set; } = Array.Empty<ShortWordDto>();
+    private string InputValue { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -233,12 +258,19 @@ else
     void OnFocusInInput()
     {
         isShowNav = false;
-        isSearchView = true;
     }
 
-    void OnFocusOutInput()
+    async Task OnFocusOutInput()
     {
+        if(!string.IsNullOrEmpty(InputValue))
+        {
+            Words = await LocalWordsService.GetWordBySearch(InputValue);
+        }
+    }
+
+    void OnUndoClick()
+    {
+        InputValue = string.Empty;
         isShowNav = true;
-        isSearchView = false;
     }
 }

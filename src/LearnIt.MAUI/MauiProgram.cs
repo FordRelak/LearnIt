@@ -8,7 +8,7 @@ namespace LearnIt.MAUI
     public static class MauiProgram
     {
         public static string BaseAddress =
-            DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5114/api" : "http://localhost:5114/api";
+            DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5000/api" : "http://localhost:5000/api";
 
         public static MauiApp CreateMauiApp()
         {
