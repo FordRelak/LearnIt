@@ -1,0 +1,185 @@
+﻿@page "/AddCategory"
+@using LearnIt.DTO
+
+<style>
+    .flex-1 {
+        flex: 1;
+    }
+
+    .bg-blackberry {
+        background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+    }
+
+    .main-block {
+        background: #FFFFFF;
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-back {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #979797;
+    }
+
+    .text-category {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    .text-save {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1384FF;
+    }
+
+    .search {
+        display: flex;
+        margin-top: 20px;
+        background: #F0F0F0;
+        border-radius: 10px;
+        display: flex;
+        padding: 7px;
+    }
+
+    .search-input {
+        background: #F0F0F0;
+        width: 100%;
+        padding-left: 6px;
+        display: flex;
+    }
+
+        .search-input input {
+            width: 100%;
+            background: #F0F0F0;
+            border: none;
+            outline: none;
+        }
+
+    .category-block {
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        border-radius: 10px 10px 0px 0px;
+        flex: 1;
+        margin-top: -10px;
+        padding: 20px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .category-list-block {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 10px 10px 0 0;
+        flex: 1;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-bottom: none;
+        padding: 15px 15px 0 15px;
+        overflow: auto;
+    }
+
+    .category-name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+</style>
+
+<section class="flex-1 d-flex flex-column bg-blackberry">
+    <div class="main-block mt-5">
+        <div class="d-flex justify-content-between">
+            <div class="col-auto">
+                <a href="/main">
+                    <span class="text-back">
+                        Отмена
+                    </span>
+                </a>
+            </div>
+            <div class="col-auto">
+                <span class="text-category">
+                    Выбор категории
+                </span>
+            </div>
+            <div class="col-auto">
+                <span class="text-save" @onclick="CreateCategory">
+                    Готово
+                </span>
+            </div>
+        </div>
+
+        <div class="search w-100">
+            <div class="search-input">
+                <input type="text" placeholder="Название категории" @bind="InputCategoryName" />
+            </div>
+        </div>
+
+
+        @if(isError)
+        {
+            <span>Такая категория уже есть.</span>
+        }
+    </div>
+
+    <div class="category-block">
+        <div class="category-title">Категории, которые уже есть</div>
+
+
+        <div class="category-list-block mt-3">
+            @foreach(var category in categories)
+            {
+                <div class="category-name">
+                    @category.Name
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@code {
+
+    private ShortCategoryDto[] categories = Array.Empty<ShortCategoryDto>();
+    private string InputCategoryName { get; set; }
+    private bool isError = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryService.GetCategories();
+    }
+
+    async Task CreateCategory()
+    {
+        if(categories.Any(c => string.Equals(c.Name, InputCategoryName, StringComparison.OrdinalIgnoreCase)))
+        {
+            isError = true;
+            return;
+        }
+
+        var categoryId = await CategoryService.CreateCategory(InputCategoryName);
+        NavigationManager.NavigateTo($"/AddWord/{categoryId}");
+    }
+}

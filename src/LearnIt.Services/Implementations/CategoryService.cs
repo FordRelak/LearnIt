@@ -22,8 +22,20 @@ namespace LearnIt.Services.Implementations
 
         public async Task<List<ShortCategoryDto>> GetCategoriesAsync(CancellationToken cancellationToken = default)
         {
-            var categories = await _categoryRepository.ListAsync(cancellationToken);
+            var categories = await _categoryRepository.ListAsync(new GetCategories(), cancellationToken);
             return _mapper.Map<List<ShortCategoryDto>>(categories);
+        }
+
+        public async Task<long> CreateCategoryAsync(CreateCategoryDto dto, CancellationToken cancellationToken)
+        {
+            var newCategory = new Category
+            {
+                Name = dto.Name
+            };
+
+            await _categoryRepository.AddAsync(newCategory, cancellationToken);
+
+            return newCategory.Id;
         }
     }
 }

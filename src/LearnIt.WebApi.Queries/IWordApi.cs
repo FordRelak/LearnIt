@@ -7,5 +7,11 @@ namespace LearnIt.WebApi.Queries
     {
         [Get("/Word/search")]
         public Task<ShortWordDto[]> GetWordBySearch([AliasAs("searchWord")] string searchWord);
+
+        [Get("/Word")]
+        public Task<ApiResponse<ShortWordDto>> GetWordByOriginalWord([AliasAs("word")] string word);
+
+        [Post("/Word")]
+        public Task<long> CreateWord([Body(BodySerializationMethod.Serialized)] CreateWordDto createWordDto);
     }
 }

@@ -137,11 +137,12 @@ namespace LearnIt.Services.Implementations
             string deviceId,
             CancellationToken cancellationToken)
         {
-            var user = await _userRepository.GetBySpecAsync(new GetUserWithCategories(deviceId), cancellationToken);
+            var user = await _userRepository.GetBySpecAsync(new GetUserWithWords(deviceId), cancellationToken);
 
             var info = new UserInfoDto
             {
-                LearnedWords = user.Words.Select(x => !x.IsRepeat).Count()
+                LearnedWords = user.Words.Count(x => !x.IsRepeat),
+                NumberOfWords = user.NumberOfWords
             };
 
             return info;

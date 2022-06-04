@@ -1,0 +1,376 @@
+﻿@page "/AddWord/{SelectedCategoryId:long?}"
+@using LearnIt.DTO
+
+<style>
+    .flex-1 {
+        flex: 1;
+    }
+
+    .bg-blackberry {
+        background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+    }
+
+    .main-block {
+        background: #FFFFFF;
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .category-block {
+        position: absolute;
+        transition: 0.5s;
+        transform: translateY(120%);
+        padding: 0 20px;
+        overflow: auto;
+        height: 85%;
+    }
+
+    .box {
+        height: 100%;
+        overflow: auto;
+        background: #F4F4F4;
+        border-radius: 10px;
+    }
+
+        .box .box-wrapper {
+            padding: 15px 13px;
+        }
+
+        .box .category {
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 10px;
+            background: white;
+        }
+
+        .box input:checked ~ label {
+            background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        }
+
+            .box input:checked ~ label .text-label {
+                color: #FFFFFF;
+                font-weight: 700;
+            }
+
+            .box input:checked ~ label .circle {
+                border: 1px solid white;
+            }
+
+    .text-label {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #818181;
+    }
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #979797;
+        border-radius: 50%;
+        margin-left: auto;
+        position: relative;
+    }
+
+        .circle .circle-inner {
+            width: 14px;
+            height: 14px;
+            background: white;
+            position: absolute;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
+
+    .text-back {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #979797;
+    }
+
+    .text-category {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    .text-save {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1384FF;
+    }
+
+    .text-save-error {
+        color: #444444;
+    }
+
+    .anim {
+        transform: translateY(15%);
+    }
+
+    .selected-category-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.05px;
+        line-height: 17px;
+        color: #444444;
+    }
+
+    .selected-category {
+        background: #FFFFFF;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 9px 13px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .new-words-block {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .word-block {
+        background: #FFFFFF;
+        border: 1px solid #F4F4F4;
+        padding: 12px 13px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .word-block-second {
+        background: #FFFFFF;
+        border: 1px solid #F4F4F4;
+        padding: 12px 13px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .yandex-block {
+        background: #FFFFFF;
+        border: 1px solid #F4F4F4;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 12px 13px;
+    }
+
+    .yandex-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+    }
+
+    .yandex-exist {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .word-input {
+        border: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+        outline: none;
+    }
+
+    .exist-category-block {
+        background: #FFFFFF;
+        border: 1px solid #F4F4F4;
+        border-radius: 10px 10px 0px 0px;
+        padding: 12px 13px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .exist-category-title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+    }
+
+    .exist-category-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.4px;
+        line-height: 20px;
+        color: #444444;
+    }
+</style>
+
+<section class="flex-1 d-flex flex-column bg-blackberry">
+    <div class="mt-4 d-flex flex-column flex-1 position-relative">
+        <div class="main-block mt-5">
+            <div class="d-flex justify-content-between">
+                <div class="col-auto">
+                    <a href="/main">
+                        <span class="text-back">
+                            Отмена
+                        </span>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <span class="text-category">
+                        Добавить слово
+                    </span>
+                </div>
+                <div class="col-auto">
+                    <span class="text-save @(isExist ? "text-save-error" : "")" @onclick="CreateWord">
+                        Готово
+                    </span>
+                </div>
+            </div>
+
+            <div class="d-flex selected-category mt-3" @onclick="ToggleCategoriesBar">
+                <div class="selected-category-text">@(CurrentCategory is null ? "Категория куда добавляем" : CurrentCategory.Name)</div>
+                <div>
+                    <img src="/images/select_category.svg" />
+                </div>
+            </div>
+
+            @if(CurrentCategory is not null)
+            {
+                <div class="new-words-block mt-4">
+                    <div class="word-block">
+                        <input type="text" class="word-input" placeholder="Слово на английском" @onfocusout="IsWordExist" @bind="inputOriginalWord" />
+                    </div>
+                    <div class="word-block-second">
+                        <input type="text" class="word-input" placeholder="Перевод" @bind="inputTranslatedWord"/>
+                    </div>
+                </div>
+
+
+                @if(isExist)
+                {
+                    <div class="exist-category-block mt-4">
+                        <div class="exist-category-title">Есть в категории:</div>
+                        <div class="exist-category-text">@existCategoryName</div>
+                    </div>
+                }
+
+                <div class="yandex-block @(isExist ? "yandex-exist" : "mt-4")">
+                    <div class="yandex-text">Автоматический перевод</div>
+                </div>
+
+            }
+        </div>
+
+        <div class="category-block @(isShowCategories ? "anim" : "")">
+            <div class="box mt-2 flex-1">
+                <div class="box-wrapper row gy-1">
+                    @foreach(var category in categories)
+                    {
+                        <div class="col-12">
+                            <input hidden type="radio"
+                               id="@category.Id"
+                               checked="@(category.Id == SelectedCategoryId)"
+                               name="category-radio"
+                               @onchange="() => OnSelectCategory(category.Id)" />
+                            <label for="@category.Id" class="category">
+                                <span class="text-label ps-2">
+                                    @category.Name
+                                </span>
+                                <span class="circle">
+                                    <span class="circle-inner"></span>
+                                </span>
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public long SelectedCategoryId { get; set; }
+
+    private ShortCategoryDto CurrentCategory;
+    private ShortCategoryDto[] categories = Array.Empty<ShortCategoryDto>();
+    private bool isShowCategories = false;
+    private bool isExist = false;
+    private string inputOriginalWord = string.Empty;
+    private string inputTranslatedWord = string.Empty;
+    private string existCategoryName = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryService.GetCategories();
+
+        if(SelectedCategoryId != 0)
+        {
+            CurrentCategory = categories.FirstOrDefault(c => c.Id == SelectedCategoryId);
+        }
+    }
+
+    void OnSelectCategory(long id)
+    {
+        SelectedCategoryId = id;
+        ToggleCategoriesBar();
+    }
+
+    void ToggleCategoriesBar()
+    {
+        isShowCategories = !isShowCategories;
+        SetCurrentCategory();
+    }
+
+    void SetCurrentCategory()
+    {
+        if(SelectedCategoryId != 0)
+        {
+            CurrentCategory = categories.FirstOrDefault(c => c.Id == SelectedCategoryId);
+        }
+    }
+
+    async Task IsWordExist()
+    {
+        if(inputOriginalWord.Length > 0)
+        {
+            var apiWord = await WordService.GetWordByOriginalWord(inputOriginalWord);
+            isExist = apiWord is not null;
+
+            if(isExist)
+            {
+                existCategoryName = apiWord.CategoryName;
+            }
+        }
+        else
+        {
+            isExist = false;
+        }
+    }
+
+    async Task CreateWord()
+    {
+        if (isExist)
+            return;
+
+        await WordService.CreateWord(SelectedCategoryId, inputOriginalWord, inputTranslatedWord);
+        NavigationManager.NavigateTo("/main");
+    }
+}

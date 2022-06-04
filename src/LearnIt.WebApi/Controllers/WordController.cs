@@ -1,4 +1,5 @@
-﻿using LearnIt.Services.Interfaces;
+﻿using LearnIt.DTO;
+using LearnIt.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearnIt.WebApi.Controllers
@@ -18,6 +19,18 @@ namespace LearnIt.WebApi.Controllers
         public async Task<IActionResult> GetWordBySearch([FromQuery] string searchWord, CancellationToken cancellationToken = default)
         {
             return Ok(await _wordService.GetWordBySearch(searchWord, cancellationToken));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetWordByOriginalWord([FromQuery] string word, CancellationToken cancellationToken = default)
+        {
+            return Ok(await _wordService.GetWordByOriginalWord(word, cancellationToken));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateWord([FromBody] CreateWordDto dto, CancellationToken cancellationToken = default)
+        {
+            return Ok(await _wordService.CreateWord(dto, cancellationToken));
         }
     }
 }

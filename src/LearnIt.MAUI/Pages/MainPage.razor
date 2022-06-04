@@ -95,18 +95,10 @@
     </div>
 </section>
 
-<button type="button" @onclick="Gogo">click</button>
-
 <BottomNavBar Mode="1"></BottomNavBar>
 
 @code {
     private UserInfoDto UserInfo { get; set; } = new();
-
-    void Gogo()
-    {
-        Shell.Current.GoToAsync($"//dictionary");
-        
-    }
 
     protected override async Task OnInitializedAsync()
     {

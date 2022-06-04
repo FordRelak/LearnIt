@@ -236,7 +236,7 @@
     protected override async Task OnInitializedAsync()
     {
         Words = (await DeviceService.GetRepeatWordsForLearn()).ToList();
-        CurrentWord = Words.First();
+        CurrentWord = Words.FirstOrDefault();
     }
 
     void SaveToRepeat()
