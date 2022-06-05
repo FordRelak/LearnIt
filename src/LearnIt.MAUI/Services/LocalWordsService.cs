@@ -34,8 +34,10 @@ namespace LearnIt.MAUI.Services
             }
 
             var localCategory = JsonSerializer.Deserialize<CategoryDto>(json);
+            var id = localCategory.Words.Any() ? localCategory.Words.Max(x => x.Id) + 1 : 1;
             localCategory.Words.Add(new ShortWordDto
             {
+                Id = id,
                 OriginalText = originalText,
                 TranslatedText = translatedText
             });
@@ -85,6 +87,22 @@ namespace LearnIt.MAUI.Services
             learnedAccess.LearnedWordsNumber += learnedWordsCount;
             var newJson = JsonSerializer.Serialize(learnedAccess);
             _localStorageService.Add(LocalStorageConstants.LEARNED_WORDS_COUNT_TODAY_KEY, newJson);
+        }
+
+        public void DeleteWord(long wordId)
+        {
+            var json = _localStorageService.Get(LocalStorageConstants.LOCAL_CATEGORY_KEY);
+            var localCategory = JsonSerializer.Deserialize<CategoryDto>(json);
+
+            var word = localCategory.Words.Where(w => w.Id == wordId).FirstOrDefault();
+
+            if(word is null)
+                return;
+
+            localCategory.Words.Remove(word);
+
+            var newJson = JsonSerializer.Serialize(localCategory);
+            _localStorageService.Add(LocalStorageConstants.LOCAL_CATEGORY_KEY, newJson);
         }
 
         private string CreateLocalCategory()

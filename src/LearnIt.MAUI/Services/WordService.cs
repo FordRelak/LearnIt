@@ -46,5 +46,10 @@ namespace LearnIt.MAUI.Services
         {
             return await _wordApi.GetTranslate(originalWord);
         }
+
+        public async Task DeleteWord(long wordId)
+        {
+            await _wordApi.DeleteWord(wordId);
+        }
     }
 }

@@ -202,8 +202,8 @@
             </div>
             <hr />
             <div class="button-selector row px-2 pb-4">
-                <div class="col" @ontouchstart="OnSecTouchStart" @ontouchend="OnSecTouchEnd" @onclick="SaveToLearnedWords">
-                    <div class="suc-but h-100">
+                <div class="col @setBackSucClass" @ontouchstart="OnSecTouchStart" @ontouchend="OnSecTouchEnd" @onclick="SaveToLearnedWords">
+                    <div class="suc-but h-100 d-flex align-items-center justify-content-center">
                         <span>
                             Выучил это слово
                         </span>
@@ -212,7 +212,7 @@
                 <div class="col-auto align-self-center">
                     <img src="/images/Vector4.svg" />
                 </div>
-                <div class="col" @ontouchstart="OnDenTouchStart" @ontouchend="OnDenTouchEnd" @onclick="SaveToRepeat">
+                <div class="col @setBackDenClass" @ontouchstart="OnDenTouchStart" @ontouchend="OnDenTouchEnd" @onclick="SaveToRepeat">
                     <div class="den-but h-100">
                         Показывать это слово ещё
                     </div>
@@ -250,6 +250,7 @@
         }
 
         CurrentWord = Words[WordIndex];
+        isShowOriginal = false;
     }
 
     async Task SaveToLearnedWords()
@@ -265,6 +266,7 @@
         }
 
         CurrentWord = Words[WordIndex];
+        isShowOriginal = false;
     }
 
     void OnShowOriginal()

@@ -60,6 +60,8 @@
         background: #FFFFFF;
         border: 0.9px solid #F4F4F4;
         padding: 11px;
+        display: flex;
+        justify-content: space-between;
     }
 
         .word-list-item:first-child {
@@ -109,14 +111,19 @@
                 @foreach(var word in category?.Words)
                 {
                     <div class="word-list-item">
-                        <div class="original-text">@word.OriginalText</div>
-                        <div class="translated-text">@word.TranslatedText</div>
+                        <div>
+                            <div class="original-text">@word.OriginalText</div>
+                            <div class="translated-text">@word.TranslatedText</div>
+                        </div>
+                        <div>
+                            <img src="/images/trash.svg"  @onclick="(e) => DeleteWord(word.Id)"/>
+                        </div>
                     </div>
                 }
             }
             else
             {
-                
+
             }
         </div>
     </div>
@@ -137,6 +144,22 @@
         else
         {
             category = LocalCategoryService.GetLocalCategory();
+        }
+    }
+
+    async Task DeleteWord(long id)
+    {
+        if (SelectedCategoryId > 0)
+        {
+            await WordService.DeleteWord(id);
+            var word = category.Words.Where(w => w.Id == id).FirstOrDefault();
+            category.Words.Remove(word);
+        }
+        else
+        {
+            LocalWordsService.DeleteWord(id);
+            var word = category.Words.Where(w => w.Id == id).FirstOrDefault();
+            category.Words.Remove(word);
         }
     }
 }

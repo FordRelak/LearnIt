@@ -16,5 +16,8 @@ namespace LearnIt.WebApi.Queries
 
         [Get("/Yandex")]
         public Task<string> GetTranslate([AliasAs("originalWord")] string originalWord);
+
+        [Delete("/Word")]
+        public Task DeleteWord([AliasAs("wordId")] long wordId);
     }
 }

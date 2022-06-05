@@ -32,5 +32,11 @@ namespace LearnIt.WebApi.Controllers
         {
             return Ok(await _wordService.CreateWord(dto, cancellationToken));
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromQuery] long wordId, CancellationToken cancellationToken = default)
+        {
+            await _wordService.DeleteWord(wordId, cancellationToken);
+        }
     }
 }

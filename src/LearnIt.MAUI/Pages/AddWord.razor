@@ -122,7 +122,12 @@
     }
 
     .text-save-error {
-        color: #444444;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #979797;
     }
 
     .selected-category-text {
@@ -272,7 +277,8 @@
                 }
 
                 <div class="yandex-block @(isExist ? "yandex-exist" : "mt-4")">
-                    <div class="yandex-text">@(!string.IsNullOrEmpty(autoTransalted) ? autoTransalted : "Автоматический перевод")</div>
+                    <div class="exist-category-title">Автоматический перевод:</div>
+                    <div class="yandex-text">@(!string.IsNullOrEmpty(autoTransalted) ? autoTransalted : "")</div>
                 </div>
 
             }

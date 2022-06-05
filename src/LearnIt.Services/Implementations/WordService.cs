@@ -55,5 +55,14 @@ namespace LearnIt.Services.Implementations
 
             return newWord.Id;
         }
+
+        public async Task DeleteWord(long wordId, CancellationToken cancellationToken = default)
+        {
+            var word = await _wordRepository.GetByIdAsync(wordId, cancellationToken);
+            if(word is not null)
+            {
+                await _wordRepository.DeleteAsync(word, cancellationToken);
+            }
+        }
     }
 }

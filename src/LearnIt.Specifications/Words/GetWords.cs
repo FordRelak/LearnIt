@@ -13,7 +13,7 @@ namespace LearnIt.Specifications.Words
 
         public GetWords(string searchWord)
         {
-            Query.Where(w => EF.Functions.Like(w.OriginalText, $"%{searchWord}%"))
+            Query.Where(w => EF.Functions.Like(w.OriginalText.ToLower(), $"%{searchWord.ToLower()}%"))
                  .Include(w => w.Category)
                  .OrderBy(w => w.OriginalText.Length);
         }

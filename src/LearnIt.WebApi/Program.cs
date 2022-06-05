@@ -37,9 +37,9 @@ namespace LearnIt.WebApi
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-
-                await app.ApplyMigrationAsync();
             }
+
+            await app.ApplyMigrationAsync();
 
             app.MapControllers();
 
