@@ -36,5 +36,15 @@ namespace LearnIt.MAUI.Services
 
             return await _wordApi.CreateWord(newWord);
         }
+
+        public async Task<ShortWordDto[]> GetWordBySearch(string searchWord)
+        {
+            return await _wordApi.GetWordBySearch(searchWord);
+        }
+
+        public async Task<string> GetTranslate(string originalWord)
+        {
+            return await _wordApi.GetTranslate(originalWord);
+        }
     }
 }

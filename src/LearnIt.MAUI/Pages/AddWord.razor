@@ -29,6 +29,10 @@
         height: 85%;
     }
 
+    .anim {
+        transform: translateY(15%);
+    }
+
     .box {
         height: 100%;
         overflow: auto;
@@ -119,10 +123,6 @@
 
     .text-save-error {
         color: #444444;
-    }
-
-    .anim {
-        transform: translateY(15%);
     }
 
     .selected-category-text {
@@ -221,7 +221,7 @@
     }
 </style>
 
-<section class="flex-1 d-flex flex-column bg-blackberry">
+<section class="flex-1 d-flex flex-column bg-blackberry overflow-hidden">
     <div class="mt-4 d-flex flex-column flex-1 position-relative">
         <div class="main-block mt-5">
             <div class="d-flex justify-content-between">
@@ -258,7 +258,7 @@
                         <input type="text" class="word-input" placeholder="Слово на английском" @onfocusout="IsWordExist" @bind="inputOriginalWord" />
                     </div>
                     <div class="word-block-second">
-                        <input type="text" class="word-input" placeholder="Перевод" @bind="inputTranslatedWord"/>
+                        <input type="text" class="word-input" placeholder="Перевод" @bind="inputTranslatedWord" />
                     </div>
                 </div>
 
@@ -272,7 +272,7 @@
                 }
 
                 <div class="yandex-block @(isExist ? "yandex-exist" : "mt-4")">
-                    <div class="yandex-text">Автоматический перевод</div>
+                    <div class="yandex-text">@(!string.IsNullOrEmpty(autoTransalted) ? autoTransalted : "Автоматический перевод")</div>
                 </div>
 
             }
@@ -316,14 +316,24 @@
     private string inputOriginalWord = string.Empty;
     private string inputTranslatedWord = string.Empty;
     private string existCategoryName = string.Empty;
+    private string autoTransalted;
 
     protected override async Task OnInitializedAsync()
     {
         categories = await CategoryService.GetCategories();
 
-        if(SelectedCategoryId != 0)
+        if(SelectedCategoryId > 0)
         {
             CurrentCategory = categories.FirstOrDefault(c => c.Id == SelectedCategoryId);
+        }
+        else if(SelectedCategoryId == 0)
+        {
+            var category = LocalCategoryService.GetLocalCategory();
+            CurrentCategory = new ShortCategoryDto()
+                {
+                    Id = category.Id,
+                    Name = category.Name
+                };
         }
     }
 
@@ -341,16 +351,18 @@
 
     void SetCurrentCategory()
     {
-        if(SelectedCategoryId != 0)
+        if(SelectedCategoryId > 0)
         {
             CurrentCategory = categories.FirstOrDefault(c => c.Id == SelectedCategoryId);
         }
+
     }
 
     async Task IsWordExist()
     {
         if(inputOriginalWord.Length > 0)
         {
+            GetAutoTranslate();
             var apiWord = await WordService.GetWordByOriginalWord(inputOriginalWord);
             isExist = apiWord is not null;
 
@@ -365,12 +377,26 @@
         }
     }
 
+    async Task GetAutoTranslate()
+    {
+        autoTransalted = await WordService.GetTranslate(inputOriginalWord);
+        StateHasChanged();
+    }
+
     async Task CreateWord()
     {
-        if (isExist)
+        if(isExist || string.IsNullOrEmpty(inputOriginalWord) || string.IsNullOrEmpty(inputTranslatedWord))
             return;
 
-        await WordService.CreateWord(SelectedCategoryId, inputOriginalWord, inputTranslatedWord);
+        if(SelectedCategoryId > 0)
+        {
+            await WordService.CreateWord(SelectedCategoryId, inputOriginalWord, inputTranslatedWord);
+        }
+        else
+        {
+            LocalWordsService.InsertWordToLocalCategory(inputOriginalWord, inputTranslatedWord);
+        }
+
         NavigationManager.NavigateTo("/main");
     }
 }

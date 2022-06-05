@@ -208,10 +208,12 @@
                 <div class="option-text">Добавить категорию</div>
             </div>
         </a>
-        <div class="option">
-            <div class="option-block"></div>
-            <div class="option-text">Мои слова</div>
-        </div>
+        <a href="/CategoryWords/0">
+            <div class="option">
+                <div class="option-block"></div>
+                <div class="option-text">Мои слова</div>
+            </div>
+        </a>
     </div>
 </section>
 
@@ -225,7 +227,7 @@
         <div class="category-list-block">
             @foreach(var category in categories)
             {
-                <a href="/">
+                <a href="/CategoryWords/@category.Id">
                     <div class="category-name">
                         @category.Name
                     </div>
@@ -235,7 +237,7 @@
     </div>
 
     <div class="image-add-word">
-        <a href="/AddWord">
+        <a href="/AddWord/-1">
             <img src="/images/addWord.svg" />
         </a>
     </div>
@@ -268,7 +270,7 @@
     {
         if(!string.IsNullOrEmpty(InputValue))
         {
-            Words = await LocalWordsService.GetWordBySearch(InputValue);
+            Words = await WordService.GetWordBySearch(InputValue);
         }
     }
 

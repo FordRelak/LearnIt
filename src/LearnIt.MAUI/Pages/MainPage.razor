@@ -39,6 +39,28 @@
             border-radius: 0px 0px 10px 10px;
         }
 
+    .block-shadow {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    a {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+    }
+
+    .ttext{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+    }
 </style>
 
 <section class="d-flex flex-column px-4">
@@ -69,22 +91,22 @@
                 </div>
             </a>
         </div>
-        <div class="col-12">
-            <div class="menu">
-                <span class="text">Смешанный режим</span>
-            </div>
+        @*<div class="col-12">
+        <div class="menu">
+        <span class="text">Смешанный режим</span>
         </div>
+        </div>*@
     </div>
 
     <div class="pt-4">
         <h2 class="mt-3">Статистика</h2>
     </div>
 
-    <div class="pt-4 w-100">
+    <div class="mt-4 w-100 block-shadow ttext">
         <a href="/ChooseWordPerLearn">
             <div class="d-flex align-items-baseline block block-up">
                 <span>Выучено сегодня</span>
-                <span class="ms-3"> / @UserInfo.NumberOfWords</span>
+                <span class="ms-3">@learnedWordsToday / @UserInfo.NumberOfWords</span>
                 <img class="ms-1" src="/images/edit2.svg" />
             </div>
         </a>
@@ -99,10 +121,12 @@
 
 @code {
     private UserInfoDto UserInfo { get; set; } = new();
+    private long learnedWordsToday = 0L;
 
     protected override async Task OnInitializedAsync()
     {
         await DeviceService.SaveStartSettings();
         UserInfo = await DeviceService.GetUserInfo();
+        learnedWordsToday = LocalWordsService.GetLearnedWordsToday();
     }
 }

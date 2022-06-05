@@ -8,8 +8,8 @@ namespace LearnIt.WebApi.Queries
         [Get("/Category")]
         Task<ICollection<ShortCategoryDto>> GetCategories();
 
-        [Get("/Category/{id}")]
-        Task<ICollection<ShortCategoryDto>> GetCategory([AliasAs("id")] long categoryId);
+        [Get("/Category/{categoryId}")]
+        Task<CategoryDto> GetCategory([AliasAs("categoryId")] long categoryId);
 
         [Post("/Category")]
         Task<long> CreateCategory([Body] CreateCategoryDto dto);

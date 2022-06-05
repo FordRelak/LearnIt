@@ -1,0 +1,96 @@
+﻿@page "/aboutFaq/{type:int}"
+
+<style>
+    section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+    }
+
+    .title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #444444;
+        padding: 0 20px;
+    }
+
+    .block {
+        padding: 0 20px;
+        padding-top: 39px;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    article{
+        margin-top:60px;
+        padding:20px 0;
+        background: white;
+        flex:1;
+    }
+</style>
+
+<section>
+    <article>
+        <div class="title">@(Type == 1 ? "О приложении" : "F&Q")</div>
+
+        <hr />
+
+        @if(Type == 1)
+        {
+            <div class="block">
+                <p>Изучайте английский язык вместе с приложением LearnIT v1.</p>
+                <p>Приложение помогает эффективно запоминать слова на английском языке.</p>
+                <p>Используйте приложение по возможности 2-3 раза в день с интервалом в несколько часов для наиболее эффективной работы.</p>
+                <p>Автоматические переводы на экране добавления новых слов реализованы с помощью сервиса API Яндекс.Словарь</p>
+                <p>Все вопросы и предложения вы можете присылать на arishashudra@gmail.com</p>
+            </div>
+        }
+        else
+        {
+            <div class="block">
+                <p>
+                    <span>Q. Сколько слов можно выучить с помощью вашего приложения?</span>
+                    <br />
+                    А. В данной версии приложения 6224 слова
+                </p>
+                <p>
+                    <span>Q. Как можно поддержать ваш проект?</span>
+                    <br />
+                    А. В личном кабинете можно перейти по ссылке “поддержать проект” и ознакомиться с предложенной информацией
+                </p>
+                <p>
+                    <span>Q. Сколько категорий я могу изучать одновременно</span>
+                    <br />
+                    А. В данной версии приложение количество выбранных категорий для изучения не ограничено
+                </p>
+            </div>
+        }
+    </article>
+</section>
+
+@code {
+    [Parameter]
+    public int Type { get; set; }
+
+
+}

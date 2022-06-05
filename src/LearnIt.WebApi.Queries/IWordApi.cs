@@ -13,5 +13,8 @@ namespace LearnIt.WebApi.Queries
 
         [Post("/Word")]
         public Task<long> CreateWord([Body(BodySerializationMethod.Serialized)] CreateWordDto createWordDto);
+
+        [Get("/Yandex")]
+        public Task<string> GetTranslate([AliasAs("originalWord")] string originalWord);
     }
 }

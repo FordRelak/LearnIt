@@ -51,15 +51,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="Models\**" />
-	  <Compile Remove="Models\**" />
-	  <Content Remove="Models\**" />
-	  <EmbeddedResource Remove="Models\**" />
-	  <MauiXaml Remove="Models\**" />
-	  <None Remove="Models\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiFont Remove="Resources\Fonts\Montserrat-Italic-VariableFont_wght.ttf" />
 	  <MauiFont Remove="Resources\Fonts\Montserrat-VariableFont_wght.ttf" />
 	</ItemGroup>

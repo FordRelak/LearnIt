@@ -36,5 +36,14 @@ namespace LearnIt.WebApi.Controllers
         {
             return Ok(await _categoryService.CreateCategoryAsync(dto, cancellationToken));
         }
+
+        /// <summary>
+        /// Получение категории по идентификатору
+        /// </summary>
+        [HttpGet("{categoryId}")]
+        public async Task<IActionResult> GetCategory([FromRoute] long categoryId, CancellationToken cancellationToken)
+        {
+            return Ok(await _categoryService.GetCategoryAsync(categoryId, cancellationToken));
+        }
     }
 }

@@ -37,5 +37,11 @@ namespace LearnIt.Services.Implementations
 
             return newCategory.Id;
         }
+
+        public async Task<CategoryDto> GetCategoryAsync(long categoryId, CancellationToken cancellationToken = default)
+        {
+            var category = await _categoryRepository.GetBySpecAsync(new GetCategoryWithWords(categoryId), cancellationToken);
+            return _mapper.Map<CategoryDto>(category);
+        }
     }
 }

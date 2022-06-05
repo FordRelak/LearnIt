@@ -1,0 +1,142 @@
+﻿@page "/CategoryWords/{SelectedCategoryId:long?}"
+@using LearnIt.DTO
+@using System.Diagnostics
+
+<style>
+    .flex-1 {
+        flex: 1;
+    }
+
+    .bg-sweet {
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+    }
+
+    .main-block {
+        background: #FFFFFF;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    .add-word-block {
+        padding: 12px 13px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        background: #FFFFFF;
+        border: 1px solid #F4F4F4;
+        border-radius: 10px;
+    }
+
+    .add-word-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #444444;
+    }
+
+    .word-list {
+        background: #F4F4F4;
+        border-radius: 10px 10px 0px 0px;
+        padding: 16px;
+        overflow: auto;
+        padding-bottom: 0;
+        flex: 1;
+    }
+
+    .word-list-item {
+        background: #FFFFFF;
+        border: 0.9px solid #F4F4F4;
+        padding: 11px;
+    }
+
+        .word-list-item:first-child {
+            border-radius: 10px 10px 0px 0px;
+        }
+
+    .original-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14.4px;
+        line-height: 20px;
+        color: #444444;
+    }
+
+    .translated-text {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.4px;
+        line-height: 20px;
+        color: #444444;
+    }
+</style>
+
+<section class="flex-1 d-flex flex-column bg-sweet">
+    <div class="main-block mt-5">
+        @if(category is not null)
+        {
+            <div class="title">@category.Name</div>
+        }
+        else
+        {
+            <div class="title">Мои слова</div>
+        }
+
+
+        <div class="add-word-block mt-3">
+            <a href="/AddWord/@SelectedCategoryId">
+                <div class="add-word-text">+ Добавить слово</div>
+            </a>
+        </div>
+
+        <div class="word-list mt-3">
+            @if(category is not null && category.Words.Any())
+            {
+                @foreach(var word in category?.Words)
+                {
+                    <div class="word-list-item">
+                        <div class="original-text">@word.OriginalText</div>
+                        <div class="translated-text">@word.TranslatedText</div>
+                    </div>
+                }
+            }
+            else
+            {
+                
+            }
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public long SelectedCategoryId { get; set; }
+
+    private CategoryDto category;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if(SelectedCategoryId > 0)
+        {
+            category = await CategoryService.GetCategoryAsync(SelectedCategoryId);
+        }
+        else
+        {
+            category = LocalCategoryService.GetLocalCategory();
+        }
+    }
+}

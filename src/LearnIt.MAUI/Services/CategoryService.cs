@@ -26,5 +26,10 @@ namespace LearnIt.MAUI.Services
 
             return await _categoryApi.CreateCategory(dto);
         }
+
+        public async Task<CategoryDto> GetCategoryAsync(long categoryId)
+        {
+            return await _categoryApi.GetCategory(categoryId);
+        }
     }
 }

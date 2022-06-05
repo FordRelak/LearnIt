@@ -260,6 +260,7 @@
 
         if(WordIndex >= Words.Count)
         {
+            LocalWordsService.InserLearnedWordsCount(Words.Count);
             await DeviceService.SaveWordsToRepeat(WordsToRepeatNextTime.Select(w => w.Id).ToArray());
             NavigationManager.NavigateTo("/main");
             return;

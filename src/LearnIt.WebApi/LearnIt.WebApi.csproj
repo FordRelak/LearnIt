@@ -18,6 +18,7 @@
     <ProjectReference Include="..\LearnIt.DTO\LearnIt.DTO.csproj" />
     <ProjectReference Include="..\LearnIt.EF\LearnIt.EF.csproj" />
     <ProjectReference Include="..\LearnIt.Services\LearnIt.Services.csproj" />
+    <ProjectReference Include="..\LearnIt.YandexDictionary\LearnIt.YandexDictionary.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -7,5 +7,6 @@ namespace LearnIt.Services.Interfaces
     {
         Task<long> CreateCategoryAsync(CreateCategoryDto dto, CancellationToken cancellationToken);
         Task<List<ShortCategoryDto>> GetCategoriesAsync(CancellationToken cancellationToken = default);
+        Task<CategoryDto> GetCategoryAsync(long categoryId, CancellationToken cancellationToken = default);
     }
 }
