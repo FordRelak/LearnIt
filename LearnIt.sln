@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.DTO.Mapping", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.WebApi.Queries", "src\LearnIt.WebApi.Queries\LearnIt.WebApi.Queries.csproj", "{8DEF2CF4-C4D8-4B97-93C0-84F49855EA93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.YandexDictionary", "src\LearnIt.YandexDictionary\LearnIt.YandexDictionary.csproj", "{9ABFCE79-9AC5-4F26-BB0B-F2D3D887D545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnIt.YandexDictionary", "src\LearnIt.YandexDictionary\LearnIt.YandexDictionary.csproj", "{9ABFCE79-9AC5-4F26-BB0B-F2D3D887D545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIt.WebApi.Tests", "tests\LearnIt.WebApi.Tests\LearnIt.WebApi.Tests.csproj", "{65AF2461-7CFA-44C4-95BB-DEFB2638E725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{9ABFCE79-9AC5-4F26-BB0B-F2D3D887D545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABFCE79-9AC5-4F26-BB0B-F2D3D887D545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABFCE79-9AC5-4F26-BB0B-F2D3D887D545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AF2461-7CFA-44C4-95BB-DEFB2638E725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AF2461-7CFA-44C4-95BB-DEFB2638E725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AF2461-7CFA-44C4-95BB-DEFB2638E725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AF2461-7CFA-44C4-95BB-DEFB2638E725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

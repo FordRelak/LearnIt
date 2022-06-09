@@ -37,6 +37,7 @@ namespace LearnIt.WebApi.Controllers
         public async Task<IActionResult> Delete([FromQuery] long wordId, CancellationToken cancellationToken = default)
         {
             await _wordService.DeleteWord(wordId, cancellationToken);
+            return Ok();
         }
     }
 }

@@ -37,6 +37,15 @@
         color: #444444;
     }
 
+    .text-error{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #979797;
+    }
+
     .text-save {
         font-family: 'Inter';
         font-style: normal;
@@ -122,11 +131,11 @@
             </div>
             <div class="col-auto">
                 <span class="text-category">
-                    Выбор категории
+                    Новая категория
                 </span>
             </div>
             <div class="col-auto">
-                <span class="text-save" @onclick="CreateCategory">
+                <span class="@(isError ? "text-error":"text-save")" @onclick="CreateCategory">
                     Готово
                 </span>
             </div>

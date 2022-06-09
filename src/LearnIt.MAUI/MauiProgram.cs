@@ -9,7 +9,7 @@ namespace LearnIt.MAUI
     {
 #if DEBUG
         public static string BaseAddress =
-            DeviceInfo.Platform == DevicePlatform.Android ? "http://91.203.177.77:15031/api" : "http://localhost:5000/api";
+            DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:5000/api" : "http://localhost:5000/api";
 #else
         public static string BaseAddress =
             DeviceInfo.Platform == DevicePlatform.Android ? "http://91.203.177.77:15031/api" : "http://localhost:5000/api";
