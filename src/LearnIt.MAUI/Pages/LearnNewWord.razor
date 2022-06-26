@@ -243,12 +243,15 @@
     void SaveToRepeat()
     {
         Words.Add(CurrentWord);
-        WordIndex++;
 
-        if(WordIndex >= Words.Count)
+        isShowOriginal = false;
+
+        if(WordIndex + 1 >= Words.Count)
         {
             NavigationManager.NavigateTo("/main");
         }
+        
+        WordIndex++;
 
         CurrentWord = Words[WordIndex];
     }
@@ -256,15 +259,18 @@
     async Task SaveToRepeatInNextTime()
     {
         WordsToRepeatNextTime.Add(CurrentWord);
-        WordIndex++;
 
-        if(WordIndex >= Words.Count)
+        isShowOriginal = false;
+
+        if(WordIndex + 1 >= Words.Count)
         {
-            LocalWordsService.InserLearnedWordsCount(Words.Count);
+            LocalWordsService.InserLearnedWordsCount(WordsToRepeatNextTime.Count);
             await DeviceService.SaveWordsToRepeat(WordsToRepeatNextTime.Select(w => w.Id).ToArray());
             NavigationManager.NavigateTo("/main");
             return;
         }
+
+        WordIndex++;
 
         CurrentWord = Words[WordIndex];
     }

@@ -42,6 +42,11 @@
     .main {
         flex: 1;
     }
+
+    .btn-bg{
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        color: white;
+    }
 </style>
 
 <section class="d-flex flex-column px-4">
@@ -73,7 +78,7 @@
 
 
     <div class="mx-auto py-5">
-        <button class="btn-next bg-blackberry" type="button" @onclick="GoToNextPage">Далее</button>
+        <button class="btn-next btn-bg" type="button" @onclick="GoToNextPage">Далее</button>
     </div>
 
 </section>

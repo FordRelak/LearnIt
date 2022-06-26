@@ -34,16 +34,21 @@
         }
 
         .category.active {
-            background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+            background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
         }
 
     input:checked + label {
-        background: linear-gradient(135deg, #7EAEFF 2.88%, #FCA6E9 100%);
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
         color: white;
     }
 
     .flex-1{
         flex: 1;
+    }
+
+    .btn-bg{
+        background: linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+        color: white;
     }
 </style>
 
@@ -82,7 +87,7 @@
     </div>
 
     <div class="mx-auto py-5">
-        <button class="btn-next bg-blackberry" type="button" @onclick="GoToNextPage">Далее</button>
+        <button class="btn-next btn-bg" type="button" @onclick="GoToNextPage">Далее</button>
     </div>
 
 </section>

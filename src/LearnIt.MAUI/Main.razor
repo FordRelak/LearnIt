@@ -1,6 +1,6 @@
 ﻿@using LearnIt.MAUI.Constants
 @using Microsoft.Extensions.Configuration
-@inject LocalStorageService LocalStorageService
+
 
 <Router AppAssembly="@typeof(Main).Assembly">
     <Found Context="routeData">
@@ -14,11 +14,6 @@
 </Router>
 
 @code {
-
-    void OnClearStorage()
-    {
-        LocalStorageService.Clear();
-    }
 
     protected override Task OnInitializedAsync()
     {
