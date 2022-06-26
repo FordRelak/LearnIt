@@ -1,90 +1,93 @@
-абажур, плафон//lampshade
-бар (мебель)//drinks cabinet
-батарея отопления//radiator
-беспроводной Интернет//wireless Internet / Wi-Fi
-ваза//vase
-ванна//bath, bathtub, tub
-ведро//bucket
-весы//scales
-вешалка (для пальто)//coat stand
-вешалка (плечики)//coat hanger
-выключатель//light switch
-газовая плита//gas stove
-гардероб, платяной шкаф//wardrobe
-гладильная доска//ironing board
-дверной звонок//doorbell
-дверь//door
-двухместная кровать//double bed
-диван//sofa
-диван-кровать//sofa-bed
-занавески//curtains
-зеркало//mirror
-картина//picture / painting
-книжный шкаф//bookcase
-ковёр//carpet
-коврик//rug
-колонки (аудио)//loudspeakers
-комнатные растения//houseplants
-комод//chest of drawers
-компьютер//computer, PC, desktop
-кофейный столик//coffee table
-кофемолка//coffee mill
-кран (с водой)//tap
-кран с горячей водой//hot tap
-кран с холодной водой//cold tap
-кресло//armchair
-кровать//bed
-ламинат//laminated flooring
-лампа//lamp
-лампочка//lightbulb
-лампочка светодиодная//LED light (bulb)
-лампочка энергосберегающая//energy saving bulb
-магнитола//stereo
-метла, веник//broom
-микроволновая печь//microwave (oven)
-мусорное ведро//dustbin
-наволочка//pillowcase
-обои//wallpaper
-одеяло//blanket
-одноместная кровать//single bed
-окно//window
-пианино//piano
-письменный стол//desk
-планшетный компьютер//tablet computer / tablet PC
-пластиковое окно//plastic window
-плеер (МП3-плеер / Ди-Ви-Ди-плеер)//player (MP3 / DVD player)
-подушка//pillow
-подушка диванная//cushion
-половик для вытирания ног//doormat
-постер//poster
-проигрыватель//record player
-простыня//sheet
-пуховое одеяло с пододеяльником//duvet
-пылесос//vacuum (cleaner) / hoover
-радио//radio
-ремонт//renovation
-розетка (электрическая)//socket
-сервант, буфет//sideboard
-скатерть//tablecloth
-смартфон//smartphone
-стенной шкаф, буфет//cupboard
-стиральная машина//washing machine
-стол//table
-столик прикроватный//bedside table
-стул//chair
-счетчик воды//water meter
-счетчик газа//gas meter
-табурет//stool
-телевизор//TV (television)
-труба//pipe
-утюг//iron
-фен//hairdryer
-холодильник//fridge / refrigerator
-центрифуга (стиральной машины)//spin dryer
-часы//clock
-швабра//mop
-штепсель, вилка (электрическая)//plug
-шторы//blinds
-щетка//brush
-электрокамин//electric fire
-электрощит//fuse box
+﻿lampshade//абажур, плафон
+drinks cabinet//бар (мебель)
+radiator//батарея отопления
+wireless Internet / Wi-Fi//беспроводной Интернет
+vase//ваза
+bath, bathtub, tub//ванна
+bucket//ведро
+scales//весы
+coat stand//вешалка (для пальто)
+coat hanger//вешалка (плечики)
+light switch//выключатель
+gas stove//газовая плита
+wardrobe//гардероб, платяной шкаф
+ironing board//гладильная доска
+doorbell//дверной звонок
+door//дверь
+double bed//двухместная кровать
+sofa//диван
+sofa-bed//диван-кровать
+curtains//занавески
+mirror//зеркало
+picture / painting//картина
+bookcase//книжный шкаф
+carpet//ковёр
+rug//коврик
+loudspeakers//колонки (аудио)
+houseplants//комнатные растения
+chest of drawers
+комод
+computer, PC, desktop//компьютер
+coffee table//кофейный столик
+coffee mill//кофемолка
+tap//кран (с водой)
+hot tap//кран с горячей водой
+cold tap//кран с холодной водой
+armchair//кресло
+bed//кровать
+laminated flooring//ламинат
+lamp//лампа
+lightbulb//лампочка
+LED light (bulb)//лампочка светодиодная
+energy saving bulb//лампочка энергосберегающая
+stereo//магнитола
+broom//метла, веник
+microwave (oven)//микроволновая печь
+dustbin//мусорное ведро
+pillowcase//наволочка
+wallpaper//обои
+blanket//одеяло
+single bed//одноместная кровать
+window//окно
+piano//пианино
+desk//письменный стол
+tablet computer / tablet PC//планшетный компьютер
+plastic window//пластиковое окно
+player (MP3 / DVD player)//плеер (МП3-плеер / Ди-Ви-Ди-плеер)
+pillow//подушка
+cushion//подушка диванная
+doormat//половик для вытирания ног
+poster//постер
+record player//проигрыватель
+sheet//простыня
+duvet//пуховое одеяло с пододеяльником
+vacuum (cleaner) / hoover//пылесос
+radio//радио
+renovation//ремонт
+socket//розетка (электрическая)
+sideboard//сервант, буфет
+tablecloth//скатерть
+smartphone//смартфон
+cupboard//стенной шкаф, буфет
+washing machine//стиральная машина
+table//стол
+bedside table//столик прикроватный
+chair//стул
+water meter
+счетчик воды
+gas meter//счетчик газа
+stool//табурет
+TV (television)//телевизор
+pipe//труба
+iron//утюг
+hairdryer//фен
+fridge / refrigerator//холодильник
+spin dryer//центрифуга (стиральной машины)
+clock//часы
+mop//швабра
+plug//штепсель, вилка (электрическая)
+blinds//шторы
+brush//щетка
+electric fire//электрокамин
+fuse box//электрощит
+

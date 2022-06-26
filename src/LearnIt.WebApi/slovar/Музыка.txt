@@ -1,4 +1,4 @@
-accompany//аккомпанировать
+﻿accompany//аккомпанировать
 accordion//аккордеон
 album//альбом
 bagpipe//волынка
@@ -10,9 +10,7 @@ bassoon//фагот
 baton//дирижерская палочка
 bow//смычок
 brass instruments//медные духовые инструменты
-
 cello//виолончель
-
 chamber music//камерная музыка
 clarinet//кларнет
 classical music//классическая музыка
@@ -29,7 +27,6 @@ guitar//гитара
 harp//арфа
 horn//рожок
 instrumental music//инструментальная музыка
-
 loudspeaker//динамик, громкоговоритель
 microphone//микрофон
 musical instruments//музыкальные инструменты

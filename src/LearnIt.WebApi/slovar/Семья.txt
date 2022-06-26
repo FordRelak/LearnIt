@@ -1,94 +1,91 @@
-семья//family
-
-родственник//relative, relation
-родители//parents
-мать (мама)//mother (mom, mum, mama, mamma, mummy, ma)
-отец (папа)//father (dad, daddy, papa, pa)
-жена//wife
-муж//husband
-супруг(а)//spouse
-ребенок, дети//child, children
-дочь//daughter
-сын//son
-сестра//sister
-брат//brother
-единственный ребенок//only child
-близнец//twin
-близнецы, двойняшки//twins
-брат-близнец//twin brother
-сестра-близнец//twin sister
-однояйцевые близнецы//identical twins
-тройняшки//triplets
-бабушка и дедушка//grandparents
-бабушка//grandmother (grandma, granny, grandmamma)
-дедушка//grandfather (grandpa, granddad, grandpapa, gran-dad)
-внуки
-grandchildren
-внучка//granddaughter
-внук//grandson
-прабабушка//great-grandmother
-прадедушка//great-grandfather
-прабабушка и прадедушка//great-grandparents
-правнуки//great-grandchildren
-тётя//aunt
-дядя//uncle
-крестный (отец)//godfather
-крестная (мать)//godmother
-отчим, приемный отец//stepfather
-мачеха, приемная мать//stepmother
-сводный брат//stepbrother
-сводная сестра//stepsister
-брат по одному из родителей//half-brother
-сестра по одному из родителей//half-sister
-приемный, усыновленный сын//adopted son
-приемная, удочеренная дочь//adopted daughter
-приемный ребенок//adopted child
-патронатная семья, приемная семья//foster family
-приемный отец//foster father
-приемная мать//foster mother
-приемные родители
-foster parents
-приемный сын//foster son
-приемная дочь//foster daughter
-приемный ребенок//foster child
-неполная семья (с одним родителем)//single-parent family
-родня//the kin, the folks
-племянница//niece
-племянник//nephew
-двоюродный брат//cousin (male)
-двоюродная сестра//cousin (female)
-двоюродный брат (сестра), кузен (кузина)//first cousin
-троюродный брат (сестра)//second cousin
-четвероюродный брат (сестра)//third cousin
-родня со стороны мужа или жены//in-laws
-свекровь//mother-in-law (husband's mother)
-свёкор//father-in-law (husband's father)
-тёща//mother-in-law (wife's mother)
-тесть//father-in-law (wife's father)
-невестка, сноха//daughter-in-law
-зять//son-in-law
-шурин, свояк, зять, деверь//brother-in-law
-свояченица, золовка, невестка//sister-in-law
-семейное положение//marital status
-холостой, неженатый, незамужняя//single
-женатый, замужняя//married
-брак//marriage
-помолвка//engagement
-помолвленный, обрученный//engaged
-развод//divorce
-разведенный//divorced
-бывший муж//ex-husband
-бывшая жена//ex-wife
-расставшиеся, не разведенные, но не проживающие одной семьей//separated
-вдова//widow
-вдовец//widower
-подружка, невеста//girlfriend
-друг, парень, ухажер//boyfriend
-любовник, любовница
-lover
-ухажер, жених, подружка, невеста, обрученный//fiance
-свадьба//wedding
-невеста на свадьбе//bride
-жених на свадьбе//(bride)groom
-медовый месяц//honeymoon
+﻿family
+семья
+relative, relation//родственник
+parents//родители
+mother (mom, mum, mama, mamma, mummy, ma)//мать (мама)
+father (dad, daddy, papa, pa)//отец (папа)
+wife//жена
+husband//муж
+spouse//супруг(а)
+child, children//ребенок, дети
+daughter//дочь
+son//сын
+sister//сестра
+brother//брат
+only child//единственный ребенок
+twin//близнец
+twins//близнецы, двойняшки
+twin brother//брат-близнец
+twin sister//сестра-близнец
+identical twins//однояйцевые близнецы
+triplets//тройняшки
+grandparents//бабушка и дедушка
+grandmother (grandma, granny, grandmamma)//бабушка
+grandfather (grandpa, granddad, grandpapa, gran-dad)//дедушка
+grandchildren//внуки
+granddaughter//внучка
+grandson//внук
+great-grandmother//прабабушка
+great-grandfather//прадедушка
+great-grandparents//прабабушка и прадедушка
+great-grandchildren//правнуки
+aunt//тётя
+uncle//дядя
+godfather//крестный (отец)
+godmother//крестная (мать)
+stepfather//отчим, приемный отец
+stepmother//мачеха, приемная мать
+stepbrother//сводный брат
+stepsister//сводная сестра
+half-brother//брат по одному из родителей
+half-sister//сестра по одному из родителей
+adopted son//приемный, усыновленный сын
+adopted daughter//приемная, удочеренная дочь
+adopted child//приемный ребенок
+foster family//патронатная семья, приемная семья
+foster father//приемный отец
+foster mother//приемная мать
+foster parents//приемные родители
+foster son//приемный сын
+foster daughter//приемная дочь
+foster child//приемный ребенок
+single-parent family//неполная семья (с одним родителем)
+the kin, the folks//родня
+niece//племянница
+nephew//племянник
+cousin (male)//двоюродный брат
+cousin (female)//двоюродная сестра
+first cousin//двоюродный брат (сестра), кузен (кузина)
+second cousin//троюродный брат (сестра)
+third cousin//четвероюродный брат (сестра)
+in-laws//родня со стороны мужа или жены
+mother-in-law (husband's mother)//свекровь
+father-in-law (husband's father)//свёкор
+mother-in-law (wife's mother)//тёща
+father-in-law (wife's father)//тесть
+daughter-in-law//невестка, сноха
+son-in-law//зять
+brother-in-law//шурин, свояк, зять, деверь
+sister-in-law//свояченица, золовка, невестка
+marital status//семейное положение
+single//холостой, неженатый, незамужняя
+married//женатый, замужняя
+marriage//брак
+engagement//помолвка
+engaged//помолвленный, обрученный
+divorce//развод
+divorced//разведенный
+ex-husband//бывший муж
+ex-wife//бывшая жена
+separated//расставшиеся, не разведенные, но не проживающие одной семьей
+widow//вдова
+widower//вдовец
+girlfriend//подружка, невеста
+boyfriend//друг, парень, ухажер
+lover//любовник, любовница
+fiance//ухажер, жених, подружка, невеста, обрученный
+wedding//свадьба
+bride//невеста на свадьбе
+(bride)groom//жених на свадьбе
+honeymoon//медовый месяц
 

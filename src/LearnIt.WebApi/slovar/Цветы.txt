@@ -1,93 +1,94 @@
-цветы//flowers
-азалия//azalea
-алоэ//aloe
-анютины глазки//pansies
-астра//aster
-бархатец//African marigold
-бегония//begonia
-букет//bouquet
-бутон розы//rosebud
-василёк//cornflower
-вербена//verbena
-вьюнок//convolves (convolvulus)
-гвоздика//carnation
-георгин//dahlia
-герань//geranium
-гербера//herbera
-гиацинт//hyacinth
-гладиолус//gladiolus
-глициния//glycinia
-гортензия//hydrangea
-дельфиниум//delphinium
-Иван-да-марья//cow-wheat
-иван-чай, кипрей//willow herb
-икебана//ikebana
-ирис//iris
-каланхоэ//kalanchoe
-календула//calendula, marigold
-камелия//camellia
-камыш//rush, reed
-канна//cannee
-колокольчик//bluebell (harebell, campanula)
-комнатный цветок//pot flower
-крапива//stinging-nettle
-крокус//crocus
-кувшинка//(yellow) water-lily
-купальница//double buttercup, globeflower
-лаванда//lavender
-ландыш//lily-of-the-valley
-лебеда//goose-foot
-левкой//gillyflower
-лилия//lily
-лилия (водяная)//water lily
-львиный зев//snap-dragon
-люпин//lupine
-лютик//buttercup, yellowcup
-мак//poppy
-мальва//holly-hox
-маргаритка//daisy
-медуница//lung-wort
-мимоза//mimosa, acacia
-молочай//milkweed
-нарцисс (белый)//narcissus
-нарцисс (жёлтый)//daffodil
-настурция//nasturtium, Indian cress
-незабудка//forget-me-not
-ноготок//marigold
-одуванчик//dandelion
-орхидея//orchid
-первоцвет//cowslip
-петунья//petunia
-пион//peony
-подорожник//plantain
-подснежник//snowdrop
-подсолнечник//sunflower
-резеда//mignonette
-репей, лопух//burdock
-рододендрон//rhododendron
-роза//rose
-ромашка//daisy
-ромашка (лечебная)//chamomile, camomile
-сажать (цветы)//plant
-сенполия//saintpaulia
-сережка (соцветие)//catkin
-спатифиллум//spathiphyllum
-сурепка//winter-cress
-табак//Missouri tobacco
-тростник//cane
-тысячелистник//milfoil
-тюльпан//tulip
-удобрять//fertilize, nourish
-фиалка//violet
-фиалка альпийская//cyclamen
-фикус//ficus, rubber plant
-флокс//phlox
-фуксия//fuchsia
-хоста//hosta
-хризантема//chrysanthemum
-цвести//bloom, blossom
-цикламен//cyclamen
-цикорий//chicory
-цинния//cynia
-шалфей//sage
-эдельвейс//edelweiss
+﻿flowers//цветы
+azalea//азалия
+aloe//алоэ
+pansies//анютины глазки
+aster//астра
+African marigold//бархатец
+begonia//бегония
+bouquet//букет
+rosebud//бутон розы
+cornflower//василёк
+verbena//вербена
+convolves (convolvulus)//вьюнок
+carnation//гвоздика
+dahlia//георгин
+geranium//герань
+herbera//гербера
+hyacinth//гиацинт
+gladiolus//гладиолус
+glycinia//глициния
+hydrangea//гортензия
+delphinium//дельфиниум
+cow-wheat//Иван-да-марья
+willow herb//иван-чай, кипрей
+ikebana//икебана
+iris//ирис
+kalanchoe//каланхоэ
+calendula, marigold//календула
+camellia//камелия
+rush, reed//камыш
+cannee//канна
+bluebell (harebell, campanula)//колокольчик
+pot flower//комнатный цветок
+stinging-nettle//крапива
+crocus//крокус
+(yellow) water-lily//кувшинка
+double buttercup, globeflower//купальница
+lavender//лаванда
+lily-of-the-valley//ландыш
+goose-foot//лебеда
+gillyflower//левкой
+lily//лилия
+water lily//лилия (водяная)
+snap-dragon//львиный зев
+lupine//люпин
+buttercup, yellowcup//лютик
+poppy//мак
+holly-hox//мальва
+daisy//маргаритка
+lung-wort//медуница
+mimosa, acacia//мимоза
+milkweed//молочай
+narcissus//нарцисс (белый)
+daffodil//нарцисс (жёлтый)
+nasturtium, Indian cress//настурция
+forget-me-not//незабудка
+marigold//ноготок
+dandelion//одуванчик
+orchid//орхидея
+cowslip//первоцвет
+petunia//петунья
+peony//пион
+plantain//подорожник
+snowdrop//подснежник
+sunflower//подсолнечник
+mignonette//резеда
+burdock//репей, лопух
+rhododendron//рододендрон
+rose//роза
+daisy//ромашка
+chamomile, camomile//ромашка (лечебная)
+plant//сажать (цветы)
+saintpaulia//сенполия
+catkin//сережка (соцветие)
+spathiphyllum//спатифиллум
+winter-cress//сурепка
+Missouri tobacco//табак
+cane//тростник
+milfoil//тысячелистник
+tulip//тюльпан
+fertilize, nourish//удобрять
+violet//фиалка
+cyclamen//фиалка альпийская
+ficus, rubber plant//фикус
+phlox//флокс
+fuchsia//фуксия
+hosta//хоста
+chrysanthemum//хризантема
+bloom, blossom//цвести
+cyclamen//цикламен
+chicory//цикорий
+cynia//цинния
+sage//шалфей
+edelweiss//эдельвейс
+

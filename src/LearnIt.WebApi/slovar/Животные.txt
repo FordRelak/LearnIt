@@ -1,115 +1,115 @@
-аист//stork
-акула//shark
-антилопа//antelope
-бабочка//butterfly
-баран//ram
-барсук//badger
-белка//squirrel
-белый медведь//polar bear
-бобр//beaver
-божья коровка//ladybird
-бык//bull
-вол, бык//ox
-волк//wolf
-волнистый попугайчик//budgie
-воробей//sparrow
-ворон//raven
-ворона//crow
-гадюка//viper
-голубь//pigeon, dove
-горилла//gorilla
-горлица//turtledove
-гриф//vulture
-гусеница//caterpillar
-гусь//goose
-дикий кабан//wild boar
-дрозд//blackbird
-дятел//woodpecker
-ёж//hedgehog
-жаворонок//lark
-жираф//giraffe
-жук//beetle
-журавль//crane
-заяц//hare
-зебра//zebra
-змея//snake
-индюк//turkey
-канарейка//canary
-канюк//buzzard
-кенгуру//kangaroo
-клоп//bug
-козел//goat
-козленок//kid
-комар, москит//gnat
-корова//cow
-кот//cat
-котенок//kitten
-крокодил//crocodile
-кролик//rabbit
-крыса//rat
-кузнечик//grasshopper
-кукушка//cuckoo
-курица//hen
-куропатка//partridge
-ласточка//swallow
-лебедь//swan
-лев//lion
-летучая мышь//bat
-лисица//fox
-лось//elk
-лошадь//horse
-лягушка//frog
-медведь//bear
-моль//moth
-морская звезда//starfish
-морская свинка//guinea pig
-муравей//ant
-муха//fly
-мышь//mouse
-носорог//rhino, rhinoceros
-обезьяна//monkey
-овца//sheep
-олень//deer
-орел//eagle
-оса//wasp
-осел//donkey
-павлин//peacock
-паук//spider
-петух//cock, rooster
-пингвин//penguin
-пиявка//leech
-пони//pony
-попугай//parrot
-поросенок//pig
-пчела//bee
-рысь//lynx
-синица//titmouse
-скорпион//scorpion
-слон//elephant
-собака//dog
-сова//owl
-сокол//falcon
-соловей//nightingale
-сорока//magpie
-страус//ostrich
-таракан//cockroach
-теленок//calf
-тетерев//heath-cock
-тигр//tiger
-тюлень//seal
-улитка//snail
-утенок//duckling
-утка//duck
-фазан//pheasant
-фламинго//flamingo
-хорёк//ferret
-цапля//heron
-цыпленок//chicken
-чайка//seagull
-червь//worm
-черепаха//tortoise
-щенок//puppy
-ягненок//lamb
-ястреб//hawk
-ящерица//lizard
+﻿ant//муравей
+antelope//антилопа
+badger//барсук
+bat//летучая мышь
+bear//медведь
+beaver//бобр
+bee//пчела
+beetle//жук
+blackbird//дрозд
+budgie//волнистый попугайчик
+bug//клоп
+bull//бык
+butterfly//бабочка
+buzzard//канюк
+calf//теленок
+canary//канарейка
+cat//кот
+caterpillar//гусеница
+chicken//цыпленок
+cock//петух
+cockroach//таракан
+cow//корова
+crane//журавль
+crocodile//крокодил
+crow//ворона
+cuckoo//кукушка
+deer//олень
+dog//собака
+donkey//осел
+duck//утка
+duckling//утенок
+eagle//орел
+elephant//слон
+elk//лось
+falcon//сокол
+ferret//хорёк
+flamingo//фламинго
+fly//муха
+fox//лисица
+frog//лягушка
+giraffe//жираф
+gnat//комар, москит
+goat//козел
+goose//гусь
+gorilla//горилла
+grasshopper//кузнечик
+guinea pig//морская свинка
+hare//заяц
+hawk//ястреб
+heath-cock//тетерев
+hedgehog//ёж
+hen//курица
+heron//цапля
+horse//лошадь
+kangaroo//кенгуру
+kid//козленок
+kitten//котенок
+ladybird//божья коровка
+lamb//ягненок
+lark//жаворонок
+leech//пиявка
+lion//лев
+lizard//ящерица
+lynx//рысь
+magpie//сорока
+monkey//обезьяна
+moth//моль
+mouse//мышь
+nightingale//соловей
+ostrich//страус
+owl//сова
+ox//вол, бык
+parrot//попугай
+partridge//куропатка
+peakcock//павлин
+penguin//пингвин
+pheasant//фазан
+pig//поросенок
+pigeon, dove//голубь
+polar bear//белый медведь
+pony//пони
+puppy//щенок
+rabbit//кролик
+ram//баран
+rat//крыса
+raven//ворон
+rhino, rhinoceros//носорог
+scorpion//скорпион
+seagull//чайка
+seal//тюлень
+shark//акула
+sheep//овца
+snail//улитка
+snake//змея
+sparrow//воробей
+spider//паук
+squirrel//белка
+starfish//морская звезда
+stork//аист
+swallow//ласточка
+swan//лебедь
+tiger//тигр
+titmouse//синица
+tortoise//черепаха
+turkey//индюк
+turtledove//горлица
+viper//гадюка
+vulture//гриф
+wasp//оса
+wild boar//дикий кабан
+wolf//волк
+woodpecker//дятел
+worm//червь
+zebra//зебра
 

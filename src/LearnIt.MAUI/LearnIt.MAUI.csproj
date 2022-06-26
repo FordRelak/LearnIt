@@ -84,8 +84,8 @@
 		<AndroidKeyStore>True</AndroidKeyStore>
 		<AndroidSigningKeyStore>myapp.keystore</AndroidSigningKeyStore>
 		<AndroidSigningKeyAlias>key</AndroidSigningKeyAlias>
-		<AndroidSigningKeyPass></AndroidSigningKeyPass>
-		<AndroidSigningStorePass></AndroidSigningStorePass>
+		<AndroidSigningKeyPass>123456</AndroidSigningKeyPass>
+		<AndroidSigningStorePass>123456</AndroidSigningStorePass>
 	</PropertyGroup>
 
 </Project>

@@ -1,119 +1,122 @@
-аптека//chemist's (shop)
-арка//arch
-банк//bank
-бар//bar
-бассейн//swimming pool / baths
-библиотека//library
-больница//hospital
-булочная//bakery, baker's (shop)
-бюро находок//lost property office
-витрина//(shop) window
-ворота//gate(s)
-впечатляющий//impressive
-вход//entrance, way in
-выбирать / выбрать//to choose, to select, to pick
-высококачественный//high-quality
-выход//exit, way out
-галерея//gallery
-гастроном//grocer's / grocery (shop)
-гулять / погулять//to (go for a) walk / stroll
-движение//traffic
-делать / сделать покупки//to shop, to go shopping
-денежный автомат//cash machine / dispenser
-деньги//money
-дешёвый//cheap
-дорога//road
-дорогой//dear (чувства), expensive (стоимость)
-дорожный знак//road sign
-заблудиться//to get lost, to lose one's way
-затор//traffic jam, congestion
-здание//building
-зоопарк//zoo
-игрушечный магазин//toyshop
-искать//to look for, search for, to seek
-касса//checkout, cash-desk; till, cash register
-кафе//cafe / cafe
-квитанция (чек)//receipt
-кино//cinema
-киоск//stall
-клумба//flower-bed
-книжный магазин//bookshop
-кредитная карточка//credit card
-лифт//lift
-магазин//shop
-мелочь//(small) change
-мечеть//mosque
-монета//coin
-мост//bridge
-музей//museum
-мясной магазин//butcher's (shop)
-на втором этаже//on the first floor (second storey)
-на первом этаже//on the ground floor (first storey)
-налево//on / to the left
-направо//on / to the right
-находить/найти//to find
-новый//new
-ночной клуб//nightclub
-обувной магазин//shoe shop
-памятник//memorial, monument
-парикмахерская//hairdresser's, hair salon
-парк//park
-перекрёсток//crossroads, junction
-переход (зебра)//(pedestrian) crossing (zebra crossing)
-перейти (через) улицу//to cross the street / road
-пешеход//pedestrian
-план города//town plan, street map
-платить / заплатить (за что)//to pay (for)
-платить / заплатить наличными//to pay (in) cash
-площадь//(town) square
-подарок//present, gift
-подержанный//second-hand
-подземный переход//underpass, subway
-пожарное депо//fire station
-покупатель//buyer, purchaser; customer
-покупать / купить//to buy, to purchase
-получить//to receive
-послать письмо//to send / post a letter
-почта//post office
-почтовый ящик//postbox, pillar box
-прилавок//counter
-примерочная//fitting / changing room
-примерять//to try on
-продавать//to sell
-распродажа//(clearance) sale
-ресторан//restaurant
-рыбный магазин//fish shop, fishmonger's (shop)
-рынок//market
-светофор//(set of) traffic lights
-синагога//synagogue
-скамья//bench, seat
-скидка//discount, (price) reduction
-собор//cathedral
-стадион//stadium
-статуя//statue
-стоить//to cost
-стоянка машин//car park
-стоянка такси//taxi-rank
-стоять в очереди//to queue up (for)
-театр//theatre
-торговаться (с кем-л.)//to bargain / haggle (with)
-торговый центр//shopping centre
-тротуар (мостовая)//pavement
-тупик//dead end, blind alley
-угол//corner
-узкий//narrow
-улица//street
-универмаг//department store
-универсам//supermarket
-уставать//to get / grow tired
-фонтан//fountain
-цена//price, cost
-церковь//church
-цирк//circus
-чек (банковский)//cheque
-чековая книжка//chequebook
-широкий//wide, broad
-эскалатор//escalator
-этаж//floor, storey
-ювелирный магазин//jeweller's (shop), jewellery shop
+﻿chemist's (shop)//аптека
+arch//арка
+bank//банк
+bar//бар
+swimming pool / baths//бассейн
+library//библиотека
+hospital//больница
+bakery, baker's (shop)//булочная
+lost property office//бюро находок
+(shop) window//витрина
+gate(s)//ворота
+impressive//впечатляющий
+entrance, way in//вход
+to choose, to select, to pick//выбирать / выбрать
+high-quality//высококачественный
+exit, way out//выход
+gallery//галерея
+grocer's / grocery (shop)//гастроном
+to (go for a) walk / stroll//гулять / погулять
+traffic//движение
+to shop, to go shopping//делать / сделать покупки
+cash machine / dispenser//денежный автомат
+money//деньги
+cheap//дешёвый
+road//дорога
+dear (чувства), expensive (стоимость)//дорогой
+road sign//дорожный знак
+to get lost, to lose one's way//заблудиться
+traffic jam, congestion//затор
+building//здание
+zoo//зоопарк
+toyshop//игрушечный магазин
+to look for, search for, to seek//искать
+checkout, cash-desk; till, cash register//касса
+cafe / cafe//кафе
+receipt//квитанция (чек)
+cinema//кино
+stall//киоск
+flower-bed//клумба
+bookshop//книжный магазин
+credit card//кредитная карточка
+lift//лифт
+shop//магазин
+
+(small) change//мелочь
+mosque//мечеть
+coin//монета
+bridge//мост
+museum//музей
+butcher's (shop)//мясной магазин
+on the first floor (second storey)//на втором этаже
+on the ground floor (first storey)//на первом этаже
+on / to the left//налево
+on / to the right//направо
+to find//находить/найти
+new//новый
+nightclub
+ночной клуб
+shoe shop//обувной магазин
+memorial, monument//памятник
+hairdresser's, hair salon//парикмахерская
+park//парк
+crossroads, junction//перекрёсток
+(pedestrian) crossing (zebra crossing)//переход (зебра)
+to cross the street / road//перейти (через) улицу
+pedestrian//пешеход
+town plan, street map//план города
+to pay (for)//платить / заплатить (за что)
+to pay (in) cash//платить / заплатить наличными
+(town) square//площадь
+present, gift//подарок
+second-hand//подержанный
+underpass, subway
+подземный переход
+fire station//пожарное депо
+buyer, purchaser; customer//покупатель
+to buy, to purchase//покупать / купить
+to receive//получить
+to send / post a letter//послать письмо
+post office//почта
+postbox, pillar box//почтовый ящик
+counter//прилавок
+fitting / changing room//примерочная
+to try on//примерять
+to sell//продавать
+(clearance) sale//распродажа
+restaurant//ресторан
+fish shop, fishmonger's (shop)//рыбный магазин
+market//рынок
+(set of) traffic lights//светофор
+synagogue//синагога
+bench, seat//скамья
+discount, (price) reduction//скидка
+cathedral//собор
+stadium//стадион
+statue//статуя
+to cost//стоить
+car park//стоянка машин
+taxi-rank//стоянка такси
+to queue up (for)//стоять в очереди
+theatre//театр
+to bargain / haggle (with)//торговаться (с кем-л.)
+shopping centre//торговый центр
+pavement//тротуар (мостовая)
+dead end, blind alley//тупик
+corner//угол
+narrow//узкий
+street//улица
+department store//универмаг
+supermarket//универсам
+to get / grow tired//уставать
+fountain//фонтан
+price, cost//цена
+church//церковь
+circus//цирк
+cheque//чек (банковский)
+chequebook//чековая книжка
+wide, broad//широкий
+escalator//эскалатор
+floor, storey//этаж
+jeweller's (shop), jewellery shop//ювелирный магазин
 

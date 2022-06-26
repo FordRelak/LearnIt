@@ -1,74 +1,69 @@
-активный//active
-амбициозный, целеустремленный//ambitious, high-flying
-безумный//reckless
-беспечный//light-hearted, easygoing
-бешеный//furious
-волевой//strong-willed
-ворчливый//grumbling
-гордый
-proud
-гуманный//humane
-добрый//kind
-жадный//greedy
-желчный//acrimonious
-жестокий//cruel
-завистливый//envious
-замкнутый//unsociable
-заносчивый, высокомерный//arrogant
-злой//angry
-идеальный//ideal, perfect
-капризный//capricious, fretful
-коварный, хитрый//sly
-ленивый//lazy
-лживый//lying, mendacious
-личность//personality
-любопытный//curious
-мерзкий//disgusting
-наглый//impertinent
-надежный, верный//reliable
-назойливый//importunate
-наивный//naive
-непослушный, капризный (о ребенке)//naughty
-обидчивый//touchy
-озорной//mischievous, naughty
-он человек с характером//he is a man of (strong) character
-оптимист//optimist
-остроумный
-witty
-отважный//courageous
-ответственный//responsible
-отзывчивый//responsive
-пассивный//passive
-пессимист//pessimist
-позитивный//positive
-покладистый//complaisant
-равнодушный//indifferent
-разумный, сообразительный//smart
-раскованный//uninhibited
-рассудительный//sober-minded, reasonable
-реалист//realist
-резкий//harsh
-самокритичный//self-critical
-самолюбивый//selfish
-серьезный//serious
-склад ума//attitude of mind, mentality
-скромный//modest
-смелый//brave
-справедливый//fair, impartial
-талантливый
-talented
-темперамент//temperament
-терпеливый//patient
-тихий//calm, quiet
-толерантный//tolerant
-тупой//stupid, dull
-умный//clever
-умный, разумный
-intelligent
-упрямый//stubborn
-циничный//cynical
-черта характера
-character trait
-чувствительный//sensitive
-щедрый//generous
+﻿active//активный
+ambitious, high-flying//амбициозный, целеустремленный
+reckless//безумный
+light-hearted, easygoing//беспечный
+furious//бешеный
+strong-willed//волевой
+grumbling//ворчливый
+proud//гордый
+humane//гуманный
+kind//добрый
+greedy//жадный
+acrimonious//желчный
+cruel//жестокий
+envious//завистливый
+unsociable//замкнутый
+arrogant//заносчивый, высокомерный
+angry//злой
+ideal, perfect//идеальный
+capricious, fretful//капризный
+sly//коварный, хитрый
+lazy//ленивый
+lying, mendacious//лживый
+personality//личность
+curious//любопытный
+disgusting//мерзкий
+impertinent//наглый
+reliable//надежный, верный
+importunate//назойливый
+naive//наивный
+naughty//непослушный, капризный (о ребенке)
+touchy//обидчивый
+mischievous, naughty//озорной
+he is a man of (strong) character//он человек с характером
+optimist//оптимист
+witty//остроумный
+courageous//отважный
+responsible//ответственный
+responsive//отзывчивый
+passive//пассивный
+pessimist//пессимист
+positive//позитивный
+complaisant//покладистый
+indifferent//равнодушный
+smart//разумный, сообразительный
+uninhibited//раскованный
+sober-minded, reasonable//рассудительный
+realist//реалист
+harsh//резкий
+self-critical//самокритичный
+selfish//самолюбивый
+serious//серьезный
+attitude of mind, mentality//склад ума
+modest//скромный
+brave//смелый
+fair, impartial//справедливый
+talented//талантливый
+temperament//темперамент
+patient//терпеливый
+calm, quiet//тихий
+tolerant//толерантный
+stupid, dull//тупой
+clever//умный
+intelligent//умный, разумный
+stubborn//упрямый
+cynical//циничный
+character trait//черта характера
+sensitive//чувствительный
+generous//щедрый
 

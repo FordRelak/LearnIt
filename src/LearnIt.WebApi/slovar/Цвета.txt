@@ -1,67 +1,64 @@
-аквамарин//aquamarine
-бежевый//beige
-белоснежный//snowy, snow-white
-белый//white
-бирюзовый//turquoise
-бледный//pale
-бордовый//wine red, bordeaux, claret red
-бронзовый//bronze
-желто-зеленый//yellow green
-желтый//yellow
-жемчужный//pearl
-зеленый//green
-золотистый//goldenrod
-золотой//gold, golden
-
-изумрудный//emerald
-индиго//indigo
-кирпичный//firebrick
-коралловый//coral
-коричневый//brown
-красный//red
-кремовый//cream
-лазурный//azure
-лимонно-зеленый//lime green
-лимонный//lemon
-лососевый//salmon
-малиновый//raspberry
-медный//copper
-медовый//honeydew
-морская волна//aqua
-небесно-голубой//sky blue
-оливковый//olive
-оранжевый//orange
-охра//sienna
-пепельно-серый//ash
-персиковый//peach, peachpuff
-песочный//sand-coloured
-пурпурный//purple
-розовый//pink
-салатовый//light-green
-светлый
-light
-серебряный//silver, silvery
-серый//grey, gray
-синий//blue
-сиреневый//lilac
-сливовый//plum
-слоновая кость//ivory
-стальной серый//steel gray
-темно-бордовый//maroon
-темный//dark
-тёмно-синий//navy (blue)
-терракотовый//terracotta
-тусклый//dull
-фиолетовый//purple
-фиолетовый, темно-лиловый//violet
-фисташковый, зеленоватый цвет
-pistachio
-фуксин//magenta
-фуксия//fuchsia
-хаки//khaki, forest green
-цвет морской волны
-seagreen
-цвет морской пены//sea foam
-черный//black
-янтарный//amber
+﻿aquamarine//аквамарин
+beige//бежевый
+snowy, snow-white//белоснежный
+white//белый
+turquoise//бирюзовый
+pale//бледный
+wine red, bordeaux, claret red//бордовый
+bronze//бронзовый
+yellow green//желто-зеленый
+yellow//желтый
+pearl//жемчужный
+green//зеленый
+goldenrod//золотистый
+gold, golden
+золотой
+emerald//изумрудный
+indigo//индиго
+firebrick//кирпичный
+coral//коралловый
+brown//коричневый
+red//красный
+cream//кремовый
+azure//лазурный
+lime green//лимонно-зеленый
+lemon//лимонный
+salmon//лососевый
+raspberry//малиновый
+copper//медный
+honeydew//медовый
+aqua//морская волна
+sky blue//небесно-голубой
+olive//оливковый
+orange//оранжевый
+sienna//охра
+ash//пепельно-серый
+peach, peachpuff//персиковый
+sand-coloured//песочный
+purple//пурпурный
+pink//розовый
+light-green//салатовый
+light//светлый
+silver, silvery//серебряный
+grey, gray//серый
+blue//синий
+lilac//сиреневый
+plum//сливовый
+ivory//слоновая кость
+steel gray//стальной серый
+maroon//темно-бордовый
+dark//темный
+navy (blue)//тёмно-синий
+terracotta//терракотовый
+dull//тусклый
+purple//фиолетовый
+violet//фиолетовый, темно-лиловый
+pistachio//фисташковый, зеленоватый цвет
+magenta//фуксин
+fuchsia//фуксия
+khaki, forest green//хаки
+seagreen//цвет морской волны
+sea foam//цвет морской пены
+black//черный
+amber//янтарный
 
